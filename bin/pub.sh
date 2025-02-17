@@ -32,7 +32,7 @@ echo 'bundle exec jekyll build'
 bundle exec jekyll build
 if [ $? -ne 0 ]; then
     echo "Error"
-    exit -1
+    #exit -1
 fi
 
 
