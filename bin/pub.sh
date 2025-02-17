@@ -32,7 +32,7 @@ echo 'bundle exec jekyll build'
 bundle exec jekyll build
 if [ $? -ne 0 ]; then
     echo "Error"
-    #exit -1
+    exit -1
 fi
 
 
@@ -52,7 +52,7 @@ git push
 echo -n 'Upload to canardoux.xyz ...'
 scp -r _site/* canardoux@danku:/var/www/canardoux.xyz/tau/fsdoc > /dev/null
 echo ''
-
+echo 'OK man'
 
 
 
