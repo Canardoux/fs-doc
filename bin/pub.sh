@@ -19,10 +19,10 @@ rm -rf _site
 #fi
 
 echo "Running api.sh"
-./api.sh
+bin/api.sh
 
 echo "Running live"
-./live.sh
+biin/live.sh
 
 echo 'config set --local path ~/vendor/bundle'
 bundle config set --local path '~/vendor/bundle'
