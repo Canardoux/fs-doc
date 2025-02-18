@@ -1,5 +1,5 @@
 ---
-title: License
+title: LICENSE
 summary: MPL2 - the Mozilla Public License v2.
 nav_order: 9
 ---

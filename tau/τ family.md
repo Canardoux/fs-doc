@@ -1,5 +1,5 @@
 ---
-title: "τ family"
+title: "The τ family"
 nav_order: 5
 ---
 
