@@ -22,7 +22,7 @@ echo "Running api.sh"
 bin/api.sh
 
 echo "Running live"
-biin/live.sh
+bin/live.sh
 
 echo 'config set --local path ~/vendor/bundle'
 bundle config set --local path '~/vendor/bundle'
