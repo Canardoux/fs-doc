@@ -18,6 +18,8 @@ if [ $? -ne 0 ]; then
     exit -1
 fi
 
+echo "Running api.sh"
+./api.sh
 
 echo 'config set --local path ~/vendor/bundle'
 bundle config set --local path '~/vendor/bundle'
@@ -36,9 +38,9 @@ if [ $? -ne 0 ]; then
 fi
 
 
-cp -a ../flutter_sound/doc/api tau/fs
-cp -a ../taudio/doc/api tau/taudio
-cp -a ../etau/doc/api tau/etau
+#cp -a ../flutter_sound/doc/api tau/fs
+#cp -a ../taudio/doc/api tau/taudio
+#cp -a ../etau/doc/api tau/etau
 
 #cp index.html _site/index.html
 #cp -a ../etau/example/build/web _site/live_etau_example
