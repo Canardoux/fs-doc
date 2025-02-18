@@ -1,7 +1,7 @@
 ---
-title: "Flutter Sound CHANGELOG"
+title: "CHANGELOG"
 summary: The Changelog of The Flutter Sound Project.
-nav_order: 7
+nav_order: 8
 toc: false
 ---
 ### 9.24.0 - 2025/02/10

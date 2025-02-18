@@ -3,6 +3,7 @@ title: Flutter Sound
 summary: The Flutter Sound Project README.
 layout: home
 nav_order: 1
+permalink: /index.html
 ---
 ![pub version](https://img.shields.io/pub/v/flutter_sound.svg?style=flat-square)
 

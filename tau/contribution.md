@@ -1,7 +1,7 @@
 ---
 title:  "Contributions"
 summary: "We need you!"
-nav_order: 6
+nav_order: 7
 ---
 
 ## Flutter Sound is a free and Open Source project.
