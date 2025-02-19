@@ -66,7 +66,7 @@ You can run a live view of these examples [here](https://canardoux.github.io/fs-
 
 The Flutter Sound package includes the following features :
 
-* Play and Record sound or music with various codecs. \(See [the supported codecs here](/fs-guides_codec.html)\)
+* Play and Record sound or music with various codecs. \(See [the supported codecs here](https://canardoux.github.io/fs-doc/tau/tau/guides/guides_codecs.html)\)
 * Play local or remote files specified by their URL.
 * Play assets.
 * Record to a live dart Stream
@@ -81,11 +81,11 @@ Streams support are a main Flutter Sound feature that is very exciting.
 - Flutter Sound can playback from a dart stream of audio data (PCM Float32 or PCM Int16). This let play live audio data generated from dart
 (sequencer, sound generator, ...) or from a remote host.
 
-You can look to the [FS Streams guide](http://tau.canardoux.xyz/fs-guides_streams.html).
+You can look to the [FS Streams guide](https://canardoux.github.io/fs-doc/tau/guides/guides_live_streams.html).
 
 ## License
 
-- Flutter Sound is published under the [MPL-2.0 License](http://tau.canardoux.xyz/fs-LICENSE.html).
+- Flutter Sound is published under the [MPL-2.0 License](hhttps://canardoux.github.io/fs-doc/tau/LICENSE.html).
 - Flutter Sound is copyrighted by Dooboolab and Canardoux.
 - Flutter Sound is now released under the permissive Mozilla license which has a **weak** *copyleft* clause: if you modify some of Flutter Sound code you must publish your modifications under the MPL license too. But you may publish your App with any license you want. Even a Proprietary/Closed-Sources License (shame on you!).
 - The Tau documentation is published under the [Creative Commons CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) license.
@@ -96,8 +96,8 @@ The `Tau` family begins to be rich :). It is composed by those following Flutter
 
 - `Flutter Sound 9.x` (this legacy plugin developed for many years)
 - [Etau](https://pub.dev/packages/etau) (which is a port on Flutter Web of the W3C Web Audio API)
-- [Tauweb](https://pub.dev/packages/tau_web) (which is the `Etau` implementation for Flutter Web)
-- [Tauwar](https://pub.dev/packages/tau_war) (which is the `Etau` implementation for Flutter on mobiles)
+- [Tauweb](https://pub.dev/packages/tauweb) (which is the `Etau` implementation for Flutter Web)
+- [Tauwar](https://pub.dev/packages/tauwar) (which is the `Etau` implementation for Flutter on mobiles)
 - [Taudio](https://pub.dev/packages/taudio) (which is (will be) something like Flutter Sound 10.0)
 
 ### [Etau](https://pub.dev/packages/etau)

@@ -4,11 +4,13 @@ summary: The Changelog of the Flutter Sound Project.
 nav_order: 8
 toc: false
 ---
-### 9.24.0 - 2025/02/10
+### 9.24.0 - 2025/02/19
 
-- Flutter Sound does not depend any more on etau/tau_web
+- Flutter Sound does not depend any more on etau/tau_web.
 - Doc. Really! No more 404 errors!
-- The live examples work again
+- The live examples work again.
+- The new doc uses Jekyll with `Just the Docs theme` (`dart doc` is now integrated inside our documentation).
+- `Etau` version Alpha ... (on Web).
 
 #### TODO
 
@@ -19,12 +21,12 @@ toc: false
 - On Web : Implement Streams Int16 
 - On web : Streams for codec.pcmFloat32 and not interleaved
 
-- On iOS : Streams Int16 not interleaved - On iOS : Codec.pcmINT16 not interleaved
+- On iOS : Streams Int16 not interleaved
+
 - Pause/Resume for PCM codecs
 - Set Volume for PCM codecs
 - Set Pan for PCM codecs
 - pcmFloat32 and pcmFloat32WAV on Android - Implement Float32 on Android - On Android : Record/Playback PCMFloat32
-
 - Playback OpusWEBM and VorbisWEBM with remote files on Android
 - Volume Control for pcm codecs (all platforms)
 - Example Pan control
@@ -33,16 +35,11 @@ toc: false
 - On Web : playback OpusOGG does not work
 - On Wev : Record/playback AAC/MP4 and OpusWEB to buffer
 - flutter_sound_recorder_web.dart:279:14
-- https://tau.canardoux.xyz/danku/extract/02-opus.webm Not found
-- https://tau.canardoux.xyz/danku/extract/03-vorbis.webm Not found
 - Playback Asset PCM Float32 : onloaderror
 - On Web : startPlayer FromURI : _flutter_sound.wav : No file extension was found. Consider using the "format" property or specify an extension.
 - On iOS : codec==Codec.pcm16WAV  --  startRecorder()  --  The frames are not correctely coded with int16 but float32. This must be fixed.
 - MacOS support
-- Doc
-- Taudio
 - DB Peak when Channel Count > 1
-- Flutter Sound 10.0-Alpha
 
 ### 9.23.0 - 2025/02/08
 
