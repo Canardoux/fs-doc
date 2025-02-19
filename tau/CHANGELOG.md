@@ -1,6 +1,6 @@
 ---
 title: "CHANGELOG"
-summary: The Changelog of The Flutter Sound Project.
+summary: The Changelog of the Flutter Sound Project.
 nav_order: 8
 toc: false
 ---

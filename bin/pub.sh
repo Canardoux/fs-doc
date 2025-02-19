@@ -4,7 +4,8 @@
 #. bin/FLUTTER_SOUND_VERSION
 #gsed -i "s/^FS_VERSION:.*/FS_VERSION: $FLUTTER_SOUND_VERSION/" _config.yml
 rm -rf _site
-#cp ../flutter_sound/README.md pages/fs
+
+
 
 bin/cp.sh
 

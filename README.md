@@ -1,9 +1,3 @@
----
-title: Flutter Sound - 3.3.3
-summary: The Flutter Sound Project README.
-layout: home
-nav_order: 1
----
 ![pub version](https://img.shields.io/pub/v/flutter_sound.svg?style=flat-square)
 
 ![Flutter Sound](https://tau-ver.canardoux.xyz/images/fs/Logotype-primary.png)
