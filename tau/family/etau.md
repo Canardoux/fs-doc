@@ -1,6 +1,6 @@
 ---
 title: Etau
-parent: "The τ family"
+parent: ""The τ family""
 nav_order: 1
 ---
 ![pub version](https://img.shields.io/pub/v/etau.svg?style=flat-square)
