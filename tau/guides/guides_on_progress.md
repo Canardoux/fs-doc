@@ -25,7 +25,7 @@ StreamSubscription? _mPlayerSubscription;
     });
 ```
 
-- Call [setSubscripionDuration](/tau/fs/api/player/FlutterSoundPlayer/setSubscriptionDuration.html). This step is very important. By default, the duration is `Duration.zero` which means that the feature is desactivated. Many, many Flutter Sound users forget to call this verb.
+- Call [setSubscripionDuration](/api/player/FlutterSoundPlayer/setSubscriptionDuration.html). This step is very important. By default, the duration is `Duration.zero` which means that the feature is desactivated. Many, many Flutter Sound users forget to call this verb.
 ```dart
     await _mPlayer.setSubscriptionDuration(
       Duration(milliseconds: 100), // 100 ms
@@ -42,7 +42,7 @@ StreamSubscription? _mPlayerSubscription;
 
 ### Example
 
-A runnable example [is here](fs-ex_player_onprogress.html).
+A runnable example [is here](/tau/examples/ex_player_onProgress.html).
 
 
 ## The Recorder API
@@ -62,7 +62,7 @@ StreamSubscription? _recorderSubscription;
     });
 ```
 
-- Call [setSubscripionDuration](/tau/fs/api/recorder/FlutterSoundRecorder/setSubscriptionDuration.html). This step is very important. By default, the duration is `Duration.zero` which means that the feature is desactivated. Many, many Flutter Sound users forget to call this verb.
+- Call [setSubscripionDuration](/api/recorder/FlutterSoundRecorder/setSubscriptionDuration.html). This step is very important. By default, the duration is `Duration.zero` which means that the feature is desactivated. Many, many Flutter Sound users forget to call this verb.
 ```dart
     setState(() {});
     await _mRecorder.setSubscriptionDuration(
@@ -79,7 +79,7 @@ StreamSubscription? _recorderSubscription;
 ```
 
 ### Example
-A runnable example [is here](fs-ex_recorder_onprogress.html).
+A runnable example [is here](/tau/examples/ex_recorder_onProgress.html).
 
 ## Trouble shooting
 

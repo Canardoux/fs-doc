@@ -3,9 +3,28 @@ title: Tauweb
 parent: "The τ family"
 nav_order: 2
 ---
+## Etau stands for Ukraine!
+
+![PeaceForUkraine](https://etau.canardoux.xyz/images/2-year-old-irish-girl-ukrainian.jpg)
+Peace for Ukraine
+
+![PrayForUkraine](https://etau.canardoux.xyz/images/banner.png)
+Pray for Ukraine
+
+# Tauweb
+
+`Tauweb` is an [Etau](https://pub.dev/packages/etau) implementation for Flutter on Flutter Web.
+
+[Etau](https://pub.dev/packages/etau) is the interface and this is what see the App.
+So, there are not many things to say about `Tauweb` because this is just an implementation.
+The only verb used by the App is `tau()`, which gives the implementation.
+
+You can see all the [Etau project documentation](https://etau.canardoux.xyz/) here.
+
+Example
 ```dart
 import 'package:etau/etau.dart';
-import 'package:tau_web/tau_web.dart';
+import 'package:tau_war/tau_web.dart';
 
   @override
   void initState() 
@@ -28,7 +47,7 @@ import 'package:tau_web/tau_web.dart';
 
 ```
 
-if your App needs to support at the same time Fliutter Web And Flutter on mobiles:
+if your App needs to support at the same time Flutter Web And Flutter on mobiles:
 ```dart
 import 'package:etau/etau.dart';
 import 'package:etau/dummy.dart'

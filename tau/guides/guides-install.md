@@ -33,7 +33,7 @@ dependencies:
 The Flutter-Sound sources [are here](https://github.com/canardoux/flutter_sound).
 It is a subproject of [tau](https://github.com/canardoux/tau)
 
-You probably want to look to [the Dev notice](fs-guides_dev.html)
+You probably want to look to [the Dev notice](/tau/dev.html)
 
 ```bash
 cd /some/where

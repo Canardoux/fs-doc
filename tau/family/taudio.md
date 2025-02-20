@@ -3,19 +3,18 @@ title: Taudio
 parent: "The τ family"
 nav_order: 4
 ---
-## Documentation
+![pub version](https://img.shields.io/pub/v/taudio.svg?style=flat-square)
+![Taudio](https://taudio.canardoux.xyz/images/Logotype-primary.png)
 
-![pub version](https://img.shields.io/pub/v/flutter_sound.svg?style=flat-square)
-
-- ## `Tau` user : your doc [is here](https://tau.canardoux.xyz/etau-README.html)
-- ## The CHANGELOG [is here](https://tau.canardoux.xyz/etau-CHANGELOG.html)
+- ## `Tau` user : your doc [is here](https://taudio.canardoux.xyz/)
+- ## The CHANGELOG [is here](https://taudio.canardoux.xyz/tau/CHANGELOG.html)
 
 ## Taudio stands for Ukraine
 
-![PeaceForUkraine](https://tau-ver.canardoux.xyz/images/2-year-old-irish-girl-ukrainian.jpg)
+![PeaceForUkraine](https://taudio.canardoux.xyz/images/2-year-old-irish-girl-ukrainian.jpg)
 Peace for Ukraine
 
-![PrayForUkraine](https://tau-ver.canardoux.xyz/images/banner.png)
+![PrayForUkraine](https://taudio.canardoux.xyz/images/banner.png)
 Pray for Ukraine
 
 ## `Taudio` as a τ Project

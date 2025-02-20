@@ -8,7 +8,7 @@ nav_order: 8
 
 ## Using path_provider
 
-The App can get the temporary directory with the plugin [path_provider](https://pub.dev/packages/path_provider) and use it for [startRecorder()](/tau/fs/api/recorder/FlutterSoundRecorder/startRecorder.html) parameter :
+The App can get the temporary directory with the plugin [path_provider](https://pub.dev/packages/path_provider) and use it for [startRecorder()](/api/recorder/FlutterSoundRecorder/startRecorder.html) parameter :
 
 ```dart
         var tempDir = await getTemporaryDirectory();
