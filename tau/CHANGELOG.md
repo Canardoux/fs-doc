@@ -7,9 +7,10 @@ toc: false
 ### 9.24.0 - 2025/02/20
 
 - Flutter Sound does not depend any more on etau/tau_web.
+- The live examples works again.
 - Doc. (work in progress)!
-- The live examples work again.
 - The new doc uses Jekyll with `Just the Docs theme` (`dart doc` is now integrated inside our documentation).
+- Doc : no more 404 errors. (I hope!).
 - `Etau` version Alpha ... (only on Web).
 
 #### TODO

@@ -58,15 +58,15 @@ The Flutter Sound package supports recording to:
 
 ## Examples \(Demo Apps\)
 
-Flutter Sound comes with several [Demo/Examples](https://canardoux.github.io/fs-doc/tau/examples.html).
+Flutter Sound comes with several [Demo/Examples](https://fs-doc.vercel.app/tau/examples.html).
 
-You can run a live view of these examples [here](https://canardoux.github.io/fs-doc/live/).
+You can run a live view of these examples [here](https://fs-doc.vercel.app/live/).
 
 ## Features
 
 The Flutter Sound package includes the following features :
 
-* Play and Record sound or music with various codecs. \(See [the supported codecs here](https://canardoux.github.io/fs-doc/tau/tau/guides/guides_codecs.html)\)
+* Play and Record sound or music with various codecs. \(See [the supported codecs here](https://fs-doc.vercel.app/tau/tau/guides/guides_codecs.html)\)
 * Play local or remote files specified by their URL.
 * Play assets.
 * Record to a live dart Stream
@@ -81,11 +81,11 @@ Streams support are a main Flutter Sound feature that is very exciting.
 - Flutter Sound can playback from a dart stream of audio data (PCM Float32 or PCM Int16). This let play live audio data generated from dart
 (sequencer, sound generator, ...) or from a remote host.
 
-You can look to the [FS Streams guide](https://canardoux.github.io/fs-doc/tau/guides/guides_live_streams.html).
+You can look to the [FS Streams guide](https://fs-doc.vercel.app/tau/guides/guides_live_streams.html).
 
 ## License
 
-- Flutter Sound is published under the [MPL-2.0 License](hhttps://canardoux.github.io/fs-doc/tau/LICENSE.html).
+- Flutter Sound is published under the [MPL-2.0 License](hhttps://fs-doc.vercel.app/tau/LICENSE.html).
 - Flutter Sound is copyrighted by Dooboolab and Canardoux.
 - Flutter Sound is now released under the permissive Mozilla license which has a **weak** *copyleft* clause: if you modify some of Flutter Sound code you must publish your modifications under the MPL license too. But you may publish your App with any license you want. Even a Proprietary/Closed-Sources License (shame on you!).
 - The Tau documentation is published under the [Creative Commons CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) license.

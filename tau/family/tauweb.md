@@ -3,7 +3,9 @@ title: Tauweb
 parent: "The τ family"
 nav_order: 2
 ---
-## Etau stands for Ukraine!
+- ## The CHANGELOG [is here](https://etau.canardoux.xyz/tau/CHANGELOG.html)
+
+## Tauweb stands for Ukraine!
 
 ![PeaceForUkraine](https://etau.canardoux.xyz/images/2-year-old-irish-girl-ukrainian.jpg)
 Peace for Ukraine
