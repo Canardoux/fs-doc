@@ -4,9 +4,11 @@ summary: "Set the speed of a playback"
 parent: Examples
 nav_order: 11
 ---
-The example source [is there](https://github.com/canardoux/flutter_sound/blob/master/example/lib/speed_control/speed_control.dart). You can have a live run of the examples [here](/tau/fs/live/index.html).
+The example source [is there](https://github.com/canardoux/flutter_sound/blob/master/example/lib/speed_control/speed_control.dart). You can have a live run of the examples [here](/live/index.html).
+It launchs a [Player](/api/player/FlutterSoundPlayer-class.html) which play an asset. 
+The User can [adjust the playback speed](/api/player/FlutterSoundPlayer/setSpeed.html) of it.
 
 This is a very simple example showing how tune the speed of a playback.
 
-{% include image.html file="/fs/ExampleScreenShots/SpeedControl.png" %}
+![screen shot](ScreenShots/SpeedControl.png)
 

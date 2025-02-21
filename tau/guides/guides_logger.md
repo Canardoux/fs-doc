@@ -32,14 +32,18 @@ enum Level
 }
 ```
 
-If you want to debugg or develop The Flutter Sound Project you can sepecify another Log Level during the instanciation of your modules : 
+If you don't want to see all the log messages in your console, or if you want to debugg or develop The Flutter Sound Project 
+tosepecify another Log Level during the instanciation of your modules : 
 
 ```dart
 FlutterSoundPlayer myPlayer = FlutterSoundPlayer(logLevel: Level.debug);
 FlutterSoundRecorder myRecorder = FlutterSoundRecorder(logLevel: Level.debug);
 ```
 
-You probably do not need, but if exceptionaly you want to dynamicaly change the Log Level after the module instanciation, you can use the `setLogLevel` verb :
+Note : it is verry, very important to post your log messages when you fill an issue in github. I cannot do anything for you without the logs.
+
+You probably do not need, but if exceptionaly you want to dynamicaly change the Log Level after the module instanciation, 
+you can use the [setLogLevel()](/api/player/FlutterSoundPlayer/setLogLevel.html) verb :
 
 ```dart
         myPlayer.setLogLevel(Level.debug);

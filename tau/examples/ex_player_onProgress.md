@@ -5,11 +5,11 @@ parent: Examples
 nav_order: 7
 ---
 
-The example source [is there](https://github.com/canardoux/flutter_sound/blob/master/example/lib/player_onProgress/player_on_progress.dart). You can have a live run of the examples [here](/tau/fs/live/index.html).
+The example source [is there](https://github.com/canardoux/flutter_sound/blob/master/example/lib/player_onProgress/player_on_progress.dart). You can have a live run of the examples [here](/live/index.html).
 
-This example shows how to use the verb `setSubscriptionDuration()` on a player for having an `onProgress()` callback.
+This example shows how to use the verb [setSubscriptionDuration()](/api/player/FlutterSoundPlayer/setSubscriptionDuration.html) on a player for having an [onProgress](/api/player/FlutterSoundPlayer/onProgress.html) callback.
 There is a slider to show how the playback frequency can be adjust.
 
 This example is really basic.
 
-{% include image.html file="/fs/ExampleScreenShots/PlayerOnProgress.png" %}
+![screen shot](ScreenShots/PlayerOnProgress.png)

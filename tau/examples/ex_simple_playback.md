@@ -5,10 +5,11 @@ parent: Examples
 nav_order: 1
 ---
 
-The example source [is there](https://github.com/canardoux/flutter_sound/blob/master/example/lib/simple_playback/simple_playback.dart). You can have a live run of the examples [here](/tau/fs/live/index.html).
+The example source [is there](https://github.com/canardoux/flutter_sound/blob/master/example/lib/simple_playback/simple_playback.dart). You can have a live run of the examples [here](/live/index.html).
 
 This is a very simple example for Flutter Sound beginners, that shows how to play a remote file.
+It create a [Player object](/api/player/FlutterSoundPlayer-class.html) and use the verb [startPlayer()](/api/player/FlutterSoundPlayer/startPlayer.html).
 
 This example is really basic.
 
-{% include image.html file="/fs/ExampleScreenShots/SimplePlayback.png" %}
+![screen shot](ScreenShots/SimplePlayback.png)
