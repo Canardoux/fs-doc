@@ -2,7 +2,7 @@
 title:  "Getting Started"
 summary: "Introduction for Flutter Sound beginners."
 parent: Guides
-nav_order: 1
+nav_order: 3
 ---
 
 ## Playback

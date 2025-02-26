@@ -2,7 +2,7 @@
 title:  "Installation"
 summary: "Flutter Sound installation."
 parent: Guides
-nav_order: 2
+nav_order: 5
 ---
 # Installation
 

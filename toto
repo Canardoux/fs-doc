@@ -1,8 +1,0 @@
-#!//bin/bash
-
-cd ../flutter_sound
-
-dart doc
-
-cd ../fs-doc
-bin/pub.sh
