@@ -15,8 +15,9 @@ Then it calls [startPlayerFromStream()](/api/player/FlutterSoundPlayer/startPlay
 If you do not need any back pressure, you can see another simple example : [LivePlaybackWithoutBackPressure.dart](fs-ex_playback_from_stream_1.html).
 This other example is a little bit simpler because the App does not need to await the playback for each block before playing another one.
 
+## You can see also those examples:
 - [Streams](ex_streams)
 - [Record To Stream](ex_record_to_stream)
-- [Live Playback Without Backpressure](fs-ex_playback_from_stream_1)
+- [Live Playback Without Backpressure](ex_playback_from_stream_1)
 
 ![screen shot](ScreenShots/PlaybackWithBackPressure.png)

@@ -17,8 +17,9 @@ Feeding Flutter Sound without back pressure is very simple but you can have two 
 * The App does not have any knowledge of when the block given to Flutter Sound is really played.
 For example, if it does a `stopPlayer()` it will loose all the buffered data not yet played.
 
+## You can see also those examples:
 - [Streams](ex_streams)
 - [Record To Stream](ex_record_to_stream)
-- [Live Playback With Backpressure](fs-ex_playback_from_stream_2)
+- [Live Playback With Backpressure](ex_playback_from_stream_2)
 
 ![screen shot](ScreenShots/PlaybackWithoutBackPressure.png)

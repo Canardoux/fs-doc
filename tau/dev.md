@@ -59,6 +59,9 @@ pod install
 cd ..
 ```
 
+## Architecture of Flutter Sound
+
+![Architecture](architecture.png)
 ## Debug the example
 
 If everything good, you are now ready to run the example in debug mode using either Visual Studio Code, Android Studio or XCode
@@ -66,6 +69,7 @@ If everything good, you are now ready to run the example in debug mode using eit
 - To debug/develop the Dart side, you open the project /tau/flutter_sound/example/ in Visual Studio Code or Android Studio.
 - To debug/develop the iOS side you open /tau/flutter_sound/example/ios/Runner.xcworkspace in XCode.
 - To debug/develop the Android side, you open the project /tau/flutter_sound/example/android in Android Studio
+- To debug/develop the Javascript side you use the Developer Tool inside Google Chrome
 
 ## Debug your own App
 

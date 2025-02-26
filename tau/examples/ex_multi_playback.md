@@ -6,9 +6,9 @@ nav_order: 9
 ---
 
 The example source [is there](https://github.com/canardoux/flutter_sound/blob/master/example/lib/multi_playback/multi_playback.dart). You can have a live run of the examples [here](/live/index.html).
-It create two [Player objects](/api/player/FlutterSoundPlayer-class.html) and use the verb [startPlayer()](/api/player/FlutterSoundPlayer/startPlayer.html) to play them.
 
 This is a simple example doing several playbacks at the same time.
+It creates two [Player objects](/api/player/FlutterSoundPlayer-class.html) and use the verb [startPlayer()](/api/player/FlutterSoundPlayer/startPlayer.html) to play them.
 
 This example shows also :
 - The [Pause](/api/player/FlutterSoundPlayer/pausePlayer.html)/[Resume](/api/player/FlutterSoundPlayer/resumePlayer.html) feature.

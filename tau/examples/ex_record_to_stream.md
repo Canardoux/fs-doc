@@ -14,6 +14,6 @@ The real interest of recording to a Stream is for example to feed a
 Speech-to-Text engine, or for processing the Live data in Dart in real time.
  
  You can also refer to the following guide: 
- - [Dart Streams](fs-ex_streams.html):
+ - [Dart Streams](/tau/guides/guides_live_streams.html):
 
 ![screen shot](ScreenShots/RecordToStream.png)
