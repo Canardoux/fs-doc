@@ -6,8 +6,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
-  <meta name="description" content="API docs for the writeInt method from the WaveHeader class, for the Dart programming language.">
-  <title>writeInt method - WaveHeader class - helper library - Dart API</title>
+  <meta name="description" content="API docs for the writeInt16 method from the WaveHeader class, for the Dart programming language.">
+  <title>writeInt16 method - WaveHeader class - helper library - Dart API</title>
 
 
   
@@ -29,9 +29,9 @@
     <li><a href="../../index.html">flutter_sound</a></li>
     <li><a href="../../helper">public&#47;flutter_sound_helper.dart</a></li>
     <li><a href="../../helper/WaveHeader-class.html">WaveHeader</a></li>
-    <li class="self-crumb">writeInt static method</li>
+    <li class="self-crumb">writeInt16 static method</li>
   </ol>
-  <div class="self-name">writeInt</div>
+  <div class="self-name">writeInt16</div>
   <form class="search navbar-right" role="search">
     <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
   </form>
@@ -54,14 +54,14 @@
     data-above-sidebar="helper&#47;WaveHeader-class-sidebar.html"
     data-below-sidebar="">
     <div>
-<h1><span class="kind-method">writeInt</span> static method 
+<h1><span class="kind-method">writeInt16</span> static method 
 </h1></div>
 
     <section class="multi-line-signature">
       
 <span class="returntype">void</span>
-<span class="name ">writeInt</span>(<wbr><ol class="parameter-list single-line"> <li><span class="parameter" id="writeInt-param-out"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-async/EventSink-class.html">EventSink</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span>&gt;</span></span>&gt;</span></span> <span class="parameter-name">out</span>, </span></li>
-<li><span class="parameter" id="writeInt-param-val"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">val</span></span></li>
+<span class="name ">writeInt16</span>(<wbr><ol class="parameter-list single-line"> <li><span class="parameter" id="writeInt16-param-out"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-async/EventSink-class.html">EventSink</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span>&gt;</span></span>&gt;</span></span> <span class="parameter-name">out</span>, </span></li>
+<li><span class="parameter" id="writeInt16-param-val"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">val</span></span></li>
 </ol>)
 
       
@@ -69,15 +69,15 @@
     </section>
     
 <section class="desc markdown">
-  <p>Push an int32 in the header</p>
+  <p>Push an Int16 in the header</p>
 </section>
 
 
     
 <section class="summary source-code" id="source">
   <h2><span>Implementation</span></h2>
-  <pre class="language-dart"><code class="language-dart">static void writeInt(EventSink&lt;List&lt;int&gt;&gt; out, int val) {
-  out.add([val &gt;&gt; 0, val &gt;&gt; 8, val &gt;&gt; 16, val &gt;&gt; 24]);
+  <pre class="language-dart"><code class="language-dart">static void writeInt16(EventSink&lt;List&lt;int&gt;&gt; out, int val) async {
+  out.add([val &gt;&gt; 0, val &gt;&gt; 8]);
 }</code></pre>
 </section>
 
@@ -94,7 +94,7 @@
     <li><a href="../../index.html">flutter_sound</a></li>
     <li><a href="../../helper">helper</a></li>
     <li><a href="../../helper/WaveHeader-class.html">WaveHeader</a></li>
-    <li class="self-crumb">writeInt static method</li>
+    <li class="self-crumb">writeInt16 static method</li>
 </ol>
 
     <h5>WaveHeader class</h5>
@@ -106,7 +106,7 @@
 <footer>
   <span class="no-break">
     flutter_sound
-      9.24.3
+      9.24.4
   </span>
   
 </footer>
