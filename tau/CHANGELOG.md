@@ -4,7 +4,7 @@ summary: The Changelog of the Flutter Sound Project.
 nav_order: 8
 toc: false
 ---
-### 9.24.0 - 2025/02/20
+### 9.24.0 - 2025/03/01
 
 - Flutter Sound does not depend any more on etau/tau_web.
 - The live examples works again.
