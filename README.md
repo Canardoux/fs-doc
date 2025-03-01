@@ -94,6 +94,9 @@ You can look to the [FS Streams guide](https://fs-doc.vercel.app/tau/guides/guid
 
 The `Tau` family begins to be rich :). It is composed by those following Flutter plugins.
 
+- API ref. Some 404 in libraries doc
+- Doc examples : some screen shots are obsolete
+
 - `Flutter Sound 9.x` (this legacy plugin developed for many years)
 - [Etau](https://pub.dev/packages/etau) (which is a port on Flutter Web of the W3C Web Audio API)
 - [Tauweb](https://pub.dev/packages/tau_web) (which is the `Etau` implementation for Flutter Web)
@@ -142,9 +145,8 @@ The current Flutter Sound version is 9.x. [Taudio](https://pub.dev/packages/taud
 
 ## We need help
 
-{% include important.html content="
+{: .important }
 We greatly appreciate any contributions to the project which can be as simple as providing feedback on the API or documentation.
-"%}
 
 Actually, I am almost alone to maintain and develop three important projects :
 - Etau
@@ -155,5 +157,6 @@ This is too much on my shoulders. We desesperatly need at least one other develo
 
 ## Thanks
 
+{: .note }
 ### If you like my work, you can click on the `Thumb up` button of the top of the [pub.dev page](https://pub.dev/packages/flutter_sound).
 This is free and this will reassure me that **I do not spend most of my life for nobody**.
