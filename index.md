@@ -1,5 +1,5 @@
 ---
-title: Flutter Sound - 9.24.1
+title: Flutter Sound - 9.24.3
 summary: The Flutter Sound Project README.
 layout: home
 nav_order: 1
@@ -72,16 +72,16 @@ You can run a live view of these examples [here](https://fs-doc.vercel.app/live/
 
 The Flutter Sound package includes the following features :
 
-* Play and Record sound or music with various codecs. \(See [the supported codecs here](https://fs-doc.vercel.app/tau/tau/guides/guides_codecs.html)\)
+* Play and Record sound or music with various codecs. \(See [the supported codecs here](https://fs-doc.vercel.app/tau/guides/guides_codecs.html)\)
 * Play local or remote files specified by their URL.
 * Play assets.
-* Record to a live dart Stream
+* Play from a dart stream
 * Playback from a live dart Stream
 * Support for releasing/resuming resources when the app pauses/resumes.
 
 ## Flutter Sound and Streams
 
-Streams support are a main Flutter Sound feature that is very exciting.
+Streams support is a main Flutter Sound feature that is very exciting.
 
 - Flutter Sound can record to a dart stream of audio data (PCM Float32 or PCM Int16). This let you process live audio data in dart, or send these data to a remote host.
 - Flutter Sound can playback from a dart stream of audio data (PCM Float32 or PCM Int16). This let play live audio data generated from dart
@@ -102,8 +102,8 @@ The `Tau` family begins to be rich :). It is composed by those following Flutter
 
 - `Flutter Sound 9.x` (this legacy plugin developed for many years)
 - [Etau](https://pub.dev/packages/etau) (which is a port on Flutter Web of the W3C Web Audio API)
-- [Tauweb](https://pub.dev/packages/tauweb) (which is the `Etau` implementation for Flutter Web)
-- [Tauwar](https://pub.dev/packages/tauwar) (which is the `Etau` implementation for Flutter on mobiles)
+- [Tauweb](https://pub.dev/packages/tau_web) (which is the `Etau` implementation for Flutter Web)
+- [Tauwar](https://pub.dev/packages/tau_war) (which is the `Etau` implementation for Flutter on mobiles)
 - [Taudio](https://pub.dev/packages/taudio) (which is (will be) something like Flutter Sound 10.0)
 
 ### [Etau](https://pub.dev/packages/etau)
@@ -142,7 +142,7 @@ The current Flutter Sound version is 9.x. [Taudio](https://pub.dev/packages/taud
    - iOS (TODO)
    - Android (TODO)
 
-`Taudio` is (will be) released under the Gnu Public Licence v3 (GPL v3). This mean that if you don't want, cannot or maynot release your App under a GPL License, you must stuck with Flutter Sound 9.x. This is not a big deal: Flutter Sound v 9.x will be maintain for a forseable future.
+`Taudio` is (will be) released under the Gnu Public Licence v3 (GPL v3). This mean that if you don't want, cannot or maynot release your App under a GPL License, you must stuck with Flutter Sound 9.x. This is not a big deal: Flutter Sound v 9.x will be maintained for a forseable future.
 
 `Taudio` is a complete rewritten of Flutter Sound 9.x. It keeps compatibility with the Flutter Sound 9.x API but adds a new wrapper above [Etau](https://pub.dev/packages/etau).
 

@@ -27,7 +27,7 @@
   <span id="sidenav-left-toggle" class="material-symbols-outlined" role="button" tabindex="0">menu</span>
   <ol class="breadcrumbs gt-separated dark hidden-xs">
     <li><a href="../../index.html">flutter_sound</a></li>
-    <li><a href="../../recorder/recorder-library.html">public&#47;flutter_sound_recorder.dart</a></li>
+    <li><a href="../../recorder">public&#47;flutter_sound_recorder.dart</a></li>
     <li><a href="../../recorder/FlutterSoundRecorder-class.html">FlutterSoundRecorder</a></li>
     <li class="self-crumb">setLogLevel method</li>
   </ol>
@@ -80,10 +80,7 @@ Seldom used. Most of the time the Log Level is specified during the constructor.
   _logLevel = aLevel;
   _logger = Logger(level: aLevel);
   if (_isInited != Initialized.notInitialized) {
-    FlutterSoundRecorderPlatform.instance.setLogLevel(
-      this,
-      aLevel,
-    );
+    FlutterSoundRecorderPlatform.instance.setLogLevel(this, aLevel);
   }
 }</code></pre>
 </section>
@@ -99,7 +96,7 @@ Seldom used. Most of the time the Log Level is specified during the constructor.
 </header>
 <ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
     <li><a href="../../index.html">flutter_sound</a></li>
-    <li><a href="../../recorder/recorder-library.html">recorder</a></li>
+    <li><a href="../../recorder">recorder</a></li>
     <li><a href="../../recorder/FlutterSoundRecorder-class.html">FlutterSoundRecorder</a></li>
     <li class="self-crumb">setLogLevel method</li>
 </ol>
@@ -113,7 +110,7 @@ Seldom used. Most of the time the Log Level is specified during the constructor.
 <footer>
   <span class="no-break">
     flutter_sound
-      9.24.0
+      9.24.3
   </span>
   
 </footer>

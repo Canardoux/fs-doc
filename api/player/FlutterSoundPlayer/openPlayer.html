@@ -27,7 +27,7 @@
   <span id="sidenav-left-toggle" class="material-symbols-outlined" role="button" tabindex="0">menu</span>
   <ol class="breadcrumbs gt-separated dark hidden-xs">
     <li><a href="../../index.html">flutter_sound</a></li>
-    <li><a href="../../player/player-library.html">public&#47;flutter_sound_player.dart</a></li>
+    <li><a href="../../player">public&#47;flutter_sound_player.dart</a></li>
     <li><a href="../../player/FlutterSoundPlayer-class.html">FlutterSoundPlayer</a></li>
     <li class="self-crumb">openPlayer method</li>
   </ol>
@@ -101,8 +101,9 @@ The Future will be automaticaly waited by <a href="../../player/FlutterSoundPlay
   }
 
   if (isBGService) {
-    await MethodChannel(&quot;xyz.canardoux.flutter_sound_bgservice&quot;)
-        .invokeMethod(&quot;setBGService&quot;);
+    await MethodChannel(
+      &quot;xyz.canardoux.flutter_sound_bgservice&quot;,
+    ).invokeMethod(&quot;setBGService&quot;);
   }
 
   Future&lt;FlutterSoundPlayer?&gt;? r;
@@ -124,7 +125,7 @@ The Future will be automaticaly waited by <a href="../../player/FlutterSoundPlay
 </header>
 <ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
     <li><a href="../../index.html">flutter_sound</a></li>
-    <li><a href="../../player/player-library.html">player</a></li>
+    <li><a href="../../player">player</a></li>
     <li><a href="../../player/FlutterSoundPlayer-class.html">FlutterSoundPlayer</a></li>
     <li class="self-crumb">openPlayer method</li>
 </ol>
@@ -138,7 +139,7 @@ The Future will be automaticaly waited by <a href="../../player/FlutterSoundPlay
 <footer>
   <span class="no-break">
     flutter_sound
-      9.24.0
+      9.24.3
   </span>
   
 </footer>

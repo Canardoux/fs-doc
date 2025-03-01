@@ -17,9 +17,9 @@ or things that come from a remote server,
 {: .warning }
 > Dart Streams support is actually being developped. Some Features are not completely supported:
 >
-> - On iOS, things are completely finished. Everything is supposed to work
-> - On Android `Interleaved` mode is completely supported. `Non interleaved` mode, and `Float32` are actually not finished
-> - On Web, most everything is to be done.
+> - On iOS things are completely finished. Everything is supposed to work
+> - On Android things are completely finished. Everything is supposed to work
+> - On Web, most everything is to be done. I am going to do that now.
 
 
 ### Interleaving

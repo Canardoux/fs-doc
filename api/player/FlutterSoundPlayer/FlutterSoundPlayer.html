@@ -27,7 +27,7 @@
   <span id="sidenav-left-toggle" class="material-symbols-outlined" role="button" tabindex="0">menu</span>
   <ol class="breadcrumbs gt-separated dark hidden-xs">
     <li><a href="../../index.html">flutter_sound</a></li>
-    <li><a href="../../player/player-library.html">public&#47;flutter_sound_player.dart</a></li>
+    <li><a href="../../player">public&#47;flutter_sound_player.dart</a></li>
     <li><a href="../../player/FlutterSoundPlayer-class.html">FlutterSoundPlayer</a></li>
     <li class="self-crumb">FlutterSoundPlayer constructor</li>
   </ol>
@@ -76,8 +76,11 @@ The optional parameter <code>bool voiceProcessing</code> is used to activate the
     
 <section class="summary source-code" id="source">
   <h2><span>Implementation</span></h2>
-  <pre class="language-dart"><code class="language-dart">&#47;* ctor *&#47; FlutterSoundPlayer(
-    {Level logLevel = Level.debug, bool voiceProcessing = false}) {
+  <pre class="language-dart"><code class="language-dart">&#47;* ctor *&#47;
+FlutterSoundPlayer({
+  Level logLevel = Level.debug,
+  bool voiceProcessing = false,
+}) {
   _logger = Logger(level: logLevel);
   _logger.d(&#39;ctor: FlutterSoundPlayer()&#39;);
 }</code></pre>
@@ -94,7 +97,7 @@ The optional parameter <code>bool voiceProcessing</code> is used to activate the
 </header>
 <ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
     <li><a href="../../index.html">flutter_sound</a></li>
-    <li><a href="../../player/player-library.html">player</a></li>
+    <li><a href="../../player">player</a></li>
     <li><a href="../../player/FlutterSoundPlayer-class.html">FlutterSoundPlayer</a></li>
     <li class="self-crumb">FlutterSoundPlayer constructor</li>
 </ol>
@@ -108,7 +111,7 @@ The optional parameter <code>bool voiceProcessing</code> is used to activate the
 <footer>
   <span class="no-break">
     flutter_sound
-      9.24.0
+      9.24.3
   </span>
   
 </footer>
