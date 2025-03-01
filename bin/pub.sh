@@ -20,6 +20,7 @@ bin/cp.sh
 
 echo "Running api.sh"
 bin/api.sh
+cp -v tau/api.md api/index.md
 
 echo "Running live"
 bin/live.sh
