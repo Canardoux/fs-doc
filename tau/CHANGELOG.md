@@ -4,6 +4,13 @@ summary: The Changelog of the Flutter Sound Project.
 nav_order: 8
 toc: false
 ---
+### 9.24.5
+
+- On Android : Record to Stream Float32 was incorrect
+- On Android : Record to Stream Not Interleaved mode was incorrect
+- On Android : Play from Stream Float32 was incorrect
+- On Android : Play from Stream Not interleaved mode was incorrect
+
 ### 9.24.4
 
 - Flutter Sound does not depend any more on etau/tau_web.
