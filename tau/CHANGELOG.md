@@ -4,9 +4,9 @@ summary: The Changelog of the Flutter Sound Project.
 nav_order: 8
 toc: false
 ---
-### 9.25.0
+### 9.25.1
 
-Implementation of setVolume() during play to Stream on iOS.
+Implementation of setVolume() during play to Stream on iOS. ([#1164](https://github.com/Canardoux/flutter_sound/issues/1164))
 
 ### 9.24.5
 

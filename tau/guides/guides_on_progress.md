@@ -2,7 +2,7 @@
 title:  "On Progress"
 summary: "Getting a Stream of events during playback or recording."
 parent: Guides
-nav_order: 4
+nav_order: 10
 ---
 
 ## A Stream of callbacks
