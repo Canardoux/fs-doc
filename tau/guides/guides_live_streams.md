@@ -182,7 +182,7 @@ await myPlayer.startPlayerFromStream
 );
 
 
-await myPlayer.feedFromStream(aBuffer);
+await myPlayer.feedF32FromStream(aBuffer);
 
 ```
 
