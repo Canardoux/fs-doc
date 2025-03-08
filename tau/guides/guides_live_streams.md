@@ -190,8 +190,8 @@ await myPlayer.feedF32FromStream(aBuffer);
 ### Parameters for `startPlayerFromStream()`:
 
 - **codec:** is mandatory. It can be either :
-    - `Codec.pcm16` if you want to get your PCM samples with an Int16 codage
-    - `Codec.pcmFloat32` if you want to get your PCM samples with a Float32 codage.
+    - `Codec.pcm16` if you want to get your PCM samples with an Int16 coding
+    - `Codec.pcmFloat32` if you want to get your PCM samples with a Float32 coding.
 
 - **sampleRate:** specifies your Sample Rate. It can be anything.  The default value is 16000. For example :
     - 8000 is a very low Sample rate

@@ -74,13 +74,22 @@
 <section class="desc markdown">
   <p>Getter of one of the three StreamSink that you may use to feed a player from Stream.</p>
 <hr>
-<p>This stream is used when you have interleaved audio data.
+<p>This stream is used when you have interleaved audio data and you don't want a flow control.
 You can look to this <a href="/tau/guides/guides_live_streams.html">small guide</a> if you need precisions.</p>
 <h2 id="return">Return</h2>
 <p>The StreamSink that you may use to feed the player</p>
 <h2 id="example">example</h2>
-<pre class="language-dart"><code class="language-dart">...
+<pre class="language-dart"><code class="language-dart">await myPlayer.startPlayerFromStream
+(
+    codec: Codec.pcmFloat32
+    numChannels: 2
+    sampleRate: 48100
+    interleaved: true,
+);
+
+myPlayer.uint8ListSink.add(myData);
 </code></pre>
+<p>You can look to this <a href="/tau/guides/guides_live_streams.html">small guide</a> if you need precisions.</p>
 <hr>
 </section>
 

@@ -69,7 +69,28 @@
     
 <section class="desc markdown">
   <p>Feed a Int16 stream not interleaved when a flow control is wanted</p>
+<hr>
 <p>Please look to this <a href="/tau/guides/guides_live_streams.html">small guide</a> if you need help.</p>
+<h2 id="parameters">Parameters</h2>
+<p><strong><em>buffer:</em></strong> is a List of Int16List containing the audio data that you want to play.
+The List length must be equal to the number of channels wanted.
+All the Int16List length <strong>MUST</strong> be same and contain your data.</p>
+<h2 id="return">Return</h2>
+<p>Returns a Future that you MUST await if you really need a flow control.
+This future is declared <em>completed</em> when the data has been played,
+or at least when they had be given to the lower layer of the software.</p>
+<h2 id="example">Example</h2>
+<pre class="language-dart"><code class="language-dart">await myPlayer.startPlayerFromStream
+(
+    codec: Codec.pcm16
+    numChannels: 2
+    sampleRate: 48100
+    interleaved: false,
+);
+
+await myPlayer.feedInt16FromStream(myData);
+</code></pre>
+<hr>
 </section>
 
 
