@@ -78,7 +78,8 @@ All the Float32List length <strong>MUST</strong> be same and contain your data.<
 <h2 id="return">Return</h2>
 <p>Returns a Future that you MUST await if you really need a flow control.
 This future is declared <em>completed</em> when the data has been played,
-or at least when they had be given to the lower layer of the software.</p>
+or at least when they had be given to the lower layer of the software.
+Note: don't use the <code>int</code> returned. It is just for legacy reason and must not be used.</p>
 <h2 id="example">Example</h2>
 <pre class="language-dart"><code class="language-dart">await myPlayer.startPlayerFromStream
 (
@@ -90,6 +91,14 @@ or at least when they had be given to the lower layer of the software.</p>
 
 await myPlayer.feedF32FromStream(myData);
 </code></pre>
+<h2 id="see-also">See also</h2>
+<ul>
+<li><a href="../../player/FlutterSoundPlayer/feedInt16FromStream.html">feedInt16FromStream()</a></li>
+<li><a href="../../player/FlutterSoundPlayer/feedUint8FromStream.html">feedUint8FromStream()</a></li>
+<li><a href="../../player/FlutterSoundPlayer/float32Sink.html">float32Sink</a></li>
+<li><a href="../../player/FlutterSoundPlayer/int16Sink.html">int16Sink</a></li>
+<li><a href="../../player/FlutterSoundPlayer/uint8ListSink.html">uint8ListSink</a></li>
+</ul>
 <hr>
 </section>
 
