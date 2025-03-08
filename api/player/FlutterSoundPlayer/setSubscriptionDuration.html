@@ -68,9 +68,10 @@
     </section>
     
 <section class="desc markdown">
-  <p>Specify the callbacks frenquency, before calling <a href="../../player/FlutterSoundPlayer/startPlayer.html">startPlayer</a>.</p>
+  <p>Specify the callbacks frequency of the <a href="../../player/FlutterSoundPlayer/onProgress.html">onProgress</a> stream.</p>
 <hr>
-<p>The default value is 0 (zero) which means that there is no callbacks.</p>
+<p>The default value is 0 (zero) which means that there is no callbacks.
+If you really want to receive the events, do not forget to call this verb.</p>
 <p><em>Example:</em></p>
 <pre class="language-dart"><code class="language-dart">myPlayer.setSubscriptionDuration(Duration(milliseconds: 100));
 </code></pre>

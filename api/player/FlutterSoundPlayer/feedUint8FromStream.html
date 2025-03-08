@@ -67,6 +67,10 @@
 
     </section>
     
+<section class="desc markdown">
+  <p>Feed a UInt8 stream interleaved when a flow control is wanted</p>
+<p>Please look to this <a href="/tau/guides/guides_live_streams.html">small guide</a> if you need help.</p>
+</section>
 
 
     
@@ -80,34 +84,6 @@
   if (isStopped) {
     return 0;
   }
-  &#47;*
-  _needSomeFoodCompleter =
-      Completer&lt;int&gt;(); &#47;&#47; Not completed until the device accept new data
-  try {
-    var ln =
-        await (FlutterSoundPlayerPlatform.instance.feed(this, data: buffer));
-    assert(ln &gt;= 0); &#47;&#47; feedFromStream() is not happy if &lt; 0
-    if (ln != 0) {
-      &#47;&#47; If the device accepted some data, then no need to wait
-      &#47;&#47; It is the tau_core responsability to send a &quot;needSomeFood&quot; then it is again available for new data
-      _needSomeFoodCompleter = null;
-      return (ln);
-    } else {
-      &#47;&#47;logger.i(&quot;The device has enough data&quot;);
-    }
-  } on Exception {
-    _needSomeFoodCompleter = null;
-    if (isStopped) {
-      return 0;
-    }
-    rethrow;
-  }
-
-  if (_needSomeFoodCompleter != null) {
-    return _needSomeFoodCompleter!.future;
-  }
-  return 0;
-   *&#47;
   return _feed(buffer);
 }</code></pre>
 </section>

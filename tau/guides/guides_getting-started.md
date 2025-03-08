@@ -80,6 +80,9 @@ const _exampleAudioFilePathMP3 = 'https://tau.canardoux.xyz/live/extract/05.mp3'
   }
 ```
 
+![PlayerStates](/images/PlayerStates.png)
+_Player States_
+
 ## Recording
 
 The complete source of a runnable example [is there](https://github.com/Canardoux/flutter_sound/blob/master/example/lib/simple_recorder/simple_recorder.dart)
@@ -92,11 +95,11 @@ To record something you must instanciate a recorder. Most of the time, you will 
   FlutterSoundRecorder _myRecorder = FlutterSoundRecorder();
 ```
 
-### 2. Open and close the audio session
+### 2. Open and close your recorder
 
 Before calling `startRecorder()` you must [open](/api/recorder/FlutterSoundRecorder/openRecorder.html) your recorder.
 
-When you have finished with it, **you must** [close](/api/recorder/FlutterSoundRecorder/closeRecorder.html) it. A god place to pute those verbs is in the procedures `initState()` and `dispose()`.
+When you have finished with it, **you must** [close](/api/recorder/FlutterSoundRecorder/closeRecorder.html) it. A good place to put those verbs is in the procedures `initState()` and `dispose()`.
 
 ```dart
   @override
@@ -140,3 +143,6 @@ To record something you call [startRecorder()](/api/recorder/FlutterSoundRecorde
     await _myRecorder.stopRecorder();
   }
 ```
+
+![RecorderStates](/images/RecorderStates.png)
+_Recorder States_

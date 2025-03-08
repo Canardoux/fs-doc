@@ -42,25 +42,21 @@ Implementation of setVolume() during play to Stream on iOS. ([#1164](https://git
 - On Web : Implement Streams Int16 
 - On web : Streams for codec.pcmFloat32 and not interleaved
 
-- FFlutter Sound web depends on dart:html
+- Flutter Sound web depends on dart:html
 - On iOS : When a playback falls in error, the Completer stays un-completed instead of doing an assertion.
 - On Android : When a playback falls in error, it tries during a very long time before aborting.
 - Little endian vs Big endian
-- Schema of the player/recorder states
 - THE API Ref. DOC !
 
 - Pause/Resume for PCM codecs
-- Set Volume for PCM codecs
 - Set Pan for PCM codecs
 - Playback OpusWEBM and VorbisWEBM with remote files on Android
-- Volume Control for pcm codecs (all platforms)
 - Example Pan control
 - On iOS, the peak level is more than 100 db
 - On Web : isEncoderSupported() and isDecoderSupported() are not implemented
 - On Web : playback OpusOGG does not work
 - On Wev : Record/playback AAC/MP4 and OpusWEB to buffer
 - flutter_sound_recorder_web.dart:279:14
-- Playback Asset PCM Float32 : onloaderror
 - On Web : startPlayer FromURI : _flutter_sound.wav : No file extension was found. Consider using the "format" property or specify an extension.
 - On iOS : codec==Codec.pcm16WAV  --  startRecorder()  --  The frames are not correctely coded with int16 but float32. This must be fixed.
 - MacOS support
