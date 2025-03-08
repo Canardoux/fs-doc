@@ -18,6 +18,10 @@ bin/cp.sh
 #    exit -1
 #fi
 
+cd ../flutter_sound
+dart doc .
+cd ../fs-doc
+
 echo "Running api.sh"
 bin/api.sh
 rm api/index.html
