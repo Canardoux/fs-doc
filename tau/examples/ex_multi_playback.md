@@ -4,6 +4,7 @@ summary: "This is a simple example doing several playbacks at the same time."
 parent: Examples
 nav_order: 9
 ---
+# Multi playbacks example
 
 The example source [is there](https://github.com/canardoux/flutter_sound/blob/master/example/lib/multi_playback/multi_playback.dart). You can have a live run of the examples [here](/live/index.html).
 

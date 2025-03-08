@@ -4,6 +4,8 @@ summary: "Control of the sound volume"
 parent: Examples
 nav_order: 10
 ---
+# Set volume example
+
 The example source [is there](https://github.com/canardoux/flutter_sound/blob/master/example/lib/volume_control/volume_control.dart). You can have a live run of the examples [here](/live/index.html).
 
 {% include image.html file="examples/set_volume.png" %}

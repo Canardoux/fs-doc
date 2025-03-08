@@ -4,7 +4,7 @@ summary: "Getting a Stream of events during playback or recording."
 parent: Guides
 nav_order: 10
 ---
-
+# OnProgress
 ## A Stream of callbacks
 
 Having a callback from Flutter Sound during a playback or a recording is convenient and very simple.

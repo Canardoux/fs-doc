@@ -4,7 +4,6 @@ summary: "Recording PCM-16 to a Dart Stream and Playback from a Dart Stream are 
 parent: Guides
 nav_order: 3
 ---
-
 # PCM Dart Streams
 
 ## Overview
@@ -24,7 +23,8 @@ or things that come from a remote server,
 
 ### Interleaving
 
-Flutter Sound API supports the two main modes: interleaved, or not interleaved (planar mode)
+Flutter Sound API supports the two main modes: interleaved, or not interleaved (planar mode).
+You can look to [this guide](/tau/guides/guides-pcm-wave.html) for a discussion about PCM formats.
 
 #### Interleaved
 
@@ -83,9 +83,13 @@ The parameters used for the verb [startRecorder()](/api/recorder/FlutterSoundRec
 
     - **toStreamFloat32:** is the StreamSink of your dart Stream when you want to get your data with the channel samples not interleaved not coded. You will receive the data as a `List<Float32List>`. The List corresponds to the data for each channels. The length of the list is 1 if you record monophony, 2 for stereo, ... Each Float32 will be for each sample. Note : this parameter is convenient when you want to access the audio data in dart as Float32 numbers.
 
-    - **bufferSize:** is a not very interesting parameter and is for expert only. With this parameter you can specify the size of the internal buffers used by flutter Sound. I sugggest that you do not play with this parameter and keep its default value which is actually 8192. (This default value is probably too high, and I will try to downgrade it in the future),
+- **bufferSize:** is a not very interesting parameter and is for expert only. With this parameter you can specify the size of the internal buffers used by flutter Sound. I sugggest that you do not play with this parameter and keep its default value which is actually 8192. (This default value is probably too high, and I will try to downgrade it in the future),
 
 - **enableVoiceProcessing:** I cannot say anything about this parameter because I don't know what it is for.
+
+{: .warning}
+It is really important that you specify the Codec parameter, the sampleRate, the numChannels parameter and your stream. Do not relay on the default values.
+If you don't, you will get bad values. You could even get Exceptions or crash.
 
 ### Listen to your Stream
 
@@ -122,7 +126,7 @@ var recordingDataControllerUint8 = StreamController<Uint8List>();
 
 ```
 
-#### Example with data not interleaved (planar mode) given as Float32 (double):
+#### Example with data not interleaved (planar mode) given as Float32:
 
 ```dart
 const int kSAMPLERATE = 16000;
@@ -167,8 +171,7 @@ This parameter specifies if the data to be played are interleaved or not. When t
 - [_mPlayer.int16Sink](/api/player/FlutterSoundPlayer/int16Sink.html) is a Stream Sink used when the data are not interleaved and when you have Float32 data to be played
 - [_mPlayer.uint8ListSink](/api/player/FlutterSoundPlayer/uint8ListSink.html) is a Stream Sink used when the data are interleaved and when you have UInt8 data to be played
 
-
-
+Example:
 ```dart
 await myPlayer.startPlayerFromStream
 (
@@ -201,6 +204,9 @@ await myPlayer.feedFromStream(aBuffer);
 
 - **bufferSize:** is a not very interesting parameter and is for expert only. With this parameter you can specify the size of the internal buffers used by flutter Sound. I sugggest that you do not play with this parameter and keep its default value which is actually 8192. This default value is probably too high, and I will try to downgrade it in the future,
 
+{: .warning}
+It is really important that you specify the Codec parameter, the sampleRate, the numChannels parameter and the `interleaved` boolean. Do not relay on the default values.
+If you don't, you will get bad values. You could even get Exceptions or crash.
 
 ### whenFinished:
 
@@ -219,7 +225,7 @@ You have two possibilities:
 
 
 
-The App does `myPlayer.uint8ListSink.add(d)` or `_mPlayer.float32Sink(d)` or `mPlayer.int16Sink(d);` each time it wants to play some data. No need to await, no need to verify if the previous buffers have finished to be played. All the data added to the Stream Sink are buffered, and are played sequentially. The App continues to work without knowing when the buffers are really played.
+The App does `myPlayer.uint8ListSink.add(d)` or `_mPlayer.float32Sink(d)` or `mPlayer.int16Sink(d)` each time it wants to play some data. No need to await, no need to verify if the previous buffers have finished to be played. All the data added to the Stream Sink are buffered, and are played sequentially. The App continues to work without knowing when the buffers are really played.
 
 This means three things :
 
@@ -227,7 +233,6 @@ This means three things :
 * When the App has finished feeding the sink, it cannot just do `myPlayer.stopPlayer()`, because there are perhaps many buffers not yet played.
 If it does a `stopPlayer()`, all the waiting buffers will be flushed which is probably not what it wants.
 * The App cannot know when the audio data are really played.
-
 
 _Example:_
 
@@ -271,10 +276,15 @@ await myPlayer.stopPlayer();
 
 You will `await` or use `then()` for each call to `feedFromStream()`.
 
-## Examples
 
-- 
+{: .warning}
+It is really important that you feed the correct stream, depending on the `interleaved` parameter and the Codec parameter.
+If you data are interleaved, you must feed your stream with `myPlayer.uint8ListSink.add(d)` or `feedUint8FromStream()`.
+If your data are not interleaved, use `_mPlayer.float32Sink(d)`/`mPlayer.int16Sink(d);` or `feedInt16FromStream()`/`feedF32FromStream()`.
 
+{: .warning}
+If your data are not interleaved, it is really important that all the lists with which you feed your stream have exactly the length of your number of channels.
+It is also very important that the data for each channels have exactly the same length.
 
 ### _Examples_
 

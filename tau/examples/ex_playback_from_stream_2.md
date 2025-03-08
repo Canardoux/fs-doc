@@ -4,6 +4,7 @@ summary: "Play from a dart stream, with flow control."
 parent: Examples
 nav_order: 6
 ---
+# Play stream with flow control example
 
 The example source [is there](https://github.com/canardoux/flutter_sound/blob/master/example/lib/livePlaybackWithBackPressure/live_playback_with_back_pressure.dart). You can have a live run of the examples [here](/live/index.html).
 

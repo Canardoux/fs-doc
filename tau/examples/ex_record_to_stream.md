@@ -4,6 +4,7 @@ summary: "Record to a dart stream"
 parent: Examples
 nav_order: 4
 ---
+# Record to stream example
 
 The example source [is there](https://github.com/canardoux/flutter_sound/blob/master/example/lib/recordToStream/record_to_stream_example.dart). You can have a live run of the examples [here](/live/index.html).
 

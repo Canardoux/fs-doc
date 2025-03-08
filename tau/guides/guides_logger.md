@@ -4,7 +4,7 @@ summary: "Debugging logs."
 parent: Guides
 nav_order: 7
 ---
-## Managing the &tau; logs
+# Managing the &tau; logs
 
 The Flutter Sound project uses now the [logger](https://pub.dev/packages/logger) plugin.
 

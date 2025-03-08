@@ -4,6 +4,7 @@ summary: "Raw PCM and Wave files."
 parent: Guides
 nav_order: 9
 ---
+# Raw PCM and Wave files
 
 Raw PCM audio data are not a compressed format. The data are composed by samples which are taken very rapidly.
 A raw codec is completely specified by :

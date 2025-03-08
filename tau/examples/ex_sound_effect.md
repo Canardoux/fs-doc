@@ -4,6 +4,7 @@ summary: "Play some sound effects, using a stream"
 parent: Examples
 nav_order: 13
 ---
+# Fast sound effect example
 
 The example source [is there](https://github.com/canardoux/flutter_sound/blob/master/example/lib/soundEffect/sound_effect.dart). You can have a live run of the examples [here](/live/index.html).
 

@@ -3,6 +3,7 @@ title:  "Examples"
 summary: "Flutter Sound comes with a list of very simple examples."
 nav_order: 3
 ---
+# Examples
 
 This code does not pretend to show how to code! The purpose of those examples is just to show how to use the Flutter Sound API.
 

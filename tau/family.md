@@ -2,8 +2,7 @@
 title: "The τ family"
 nav_order: 5
 ---
-
-## The τ family
+# The τ family
 
 The `Tau` family begins to be rich :). It is composed by those following Flutter plugins.
 

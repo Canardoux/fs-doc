@@ -4,6 +4,7 @@ summary: "A very simple Recorder."
 parent: Examples
 nav_order: 2
 ---
+# Simple recorder example
 
 The example source [is there](https://github.com/canardoux/flutter_sound/blob/master/example/lib/simple_recorder/simple_recorder.dart). You can have a live run of the examples [here](/live/index.html).
 

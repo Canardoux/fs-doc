@@ -4,6 +4,7 @@ summary: "A demonstration of the Flutter Sound features."
 parent: Examples
 nav_order: 15
 ---
+# Demo example
 
 The example source [is there](https://github.com/canardoux/flutter_sound/blob/master/example/lib/demo/demo.dart). You can have a live run of the examples [here](/live/index.html).
 

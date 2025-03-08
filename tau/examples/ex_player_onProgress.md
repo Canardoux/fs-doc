@@ -4,6 +4,7 @@ summary: "Simple setSubscriptionDuration()and onProgress() for a player"
 parent: Examples
 nav_order: 7
 ---
+# Player onProgress example
 
 The example source [is there](https://github.com/canardoux/flutter_sound/blob/master/example/lib/player_onProgress/player_on_progress.dart). You can have a live run of the examples [here](/live/index.html).
 

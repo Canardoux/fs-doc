@@ -5,10 +5,7 @@ layout: home
 nav_order: 1
 ---
 ![pub version](https://img.shields.io/pub/v/flutter_sound.svg?style=flat-square)
-
 ![Flutter Sound](https://tau-ver.canardoux.xyz/images/fs/Logotype-primary.png)
-
-## Documentation
 
 - ## Flutter Sound user : your doc [is here](https://flutter-sound.canardoux.xyz/)
 - ## The CHANGELOG [is here](https://fs-doc.vercel.app/tau/CHANGELOG.html)

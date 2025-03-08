@@ -4,6 +4,8 @@ summary: "Play from a dart stream, without flow control."
 parent: Examples
 nav_order: 5
 ---
+# Play Stream without flow control example
+
 The example source [is there](https://github.com/canardoux/flutter_sound/blob/master/example/lib/livePlaybackWithoutBackPressure/live_playback_without_back_pressure.dart). You can have a live run of the examples [here](/live/index.html).
 
 An example showing how to play Live Data without back pressure. It feeds a live stream, without waiting that the futures are completed for each block. This is simpler than playing buffers synchronously because the App does not need to await that the playback for each block is completed before playing another one.

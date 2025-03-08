@@ -1,11 +1,10 @@
 ---
 title:  "Set Log Level"
-description: "Set Log Level"
 summary: "Set Log Level"
 parent: Examples
 nav_order: 14
-
 ---
+# Set log level example
 
 The example source [is there](https://github.com/canardoux/flutter_sound/blob/master/example/lib/loglevel/loglevel.dart). You can have a live run of the examples [here](/live/index.html).
 

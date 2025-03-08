@@ -113,7 +113,7 @@ Then, if you have the necessary credentials (but you certainly do not have them)
 
 ```sh
 cd /tau/fs-doc
-bin/pub.sh 1.2.3
+bin/pub.sh
 ```
 
 ## Build a new release
@@ -122,10 +122,10 @@ if you have the necessary credentials (but you certainly do not have them), you 
 
 ```sh
 cd /tau/flutter_sound
-pub.sh 1.2.3
+pub.sh 9.2.0
 ```
 
-(In this example, 8.2.0 is the version number that you want to build).
+(In this example, 9.2.0 is the version number that you want to build).
 
 ------------------
 

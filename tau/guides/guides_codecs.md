@@ -5,7 +5,7 @@ parent: Guides
 nav_order: 6
 ---
 
-## Supported Codecs
+# Supported Codecs
 
 ### On mobile OS
 
@@ -19,6 +19,7 @@ Actually, the following codecs are supported by flutter\_sound:
 | MP3 | ❌ | ✅ | ❌ | ✅ |
 | Vorbis OGG | ❌ | ❌ | ❌ | ✅ |
 | PCM16 | ✅ | ✅ | ✅ \(1\) | ✅ |
+| PCMFloat32 | ✅ | ✅ | ✅ \(1\) | ✅ |
 | PCM Wave | ✅ | ✅ | ✅ \(1\) | ✅ |
 | PCM AIFF | ❌ | ✅ | ❌ | ❌ |
 | PCM CAF | ✅ | ✅ | ❌ | ❌ |
@@ -27,7 +28,6 @@ Actually, the following codecs are supported by flutter\_sound:
 | AMR NB | ❌ | ❌ | ✅ \(1\) | ✅ |
 | AMR WB | ❌ | ❌ | ✅ \(1\) | ✅ |
 | PCM8 | ❌ | ❌ | ❌ | ❌ |
-| PCM F32 | ❌ | ❌ | ❌ | ❌ |
 | PCM WEBM | ❌ | ❌ | ❌ | ❌ |
 | Opus WEBM | ❌ | ❌ | ❌ | ✅ |
 | Vorbis WEBM | ❌ | ❌ | ❌ | ✅ |

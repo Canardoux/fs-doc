@@ -4,6 +4,8 @@ summary: "Audio Streams with Flutter Sound,"
 parent: Examples
 nav_order: 3
 ---
+# Streams example
+
 The example source [is there](https://github.com/canardoux/flutter_sound/blob/master/example/lib/streams/streams.dart). You can have a live run of the examples [here](/live/index.html).
 
 The real interest of recording to a Stream is for example to feed a Speech-to-Text engine, or for processing the Live data in Dart in real time.
