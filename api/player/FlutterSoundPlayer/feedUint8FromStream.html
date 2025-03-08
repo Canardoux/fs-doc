@@ -72,7 +72,9 @@
 <hr>
 <p>Please look to this <a href="/tau/guides/guides_live_streams.html">small guide</a> if you need help.</p>
 <h2 id="parameters">Parameters</h2>
-<p><strong><em>buffer:</em></strong> is a Uint8List containing the audio data that you want to play.</p>
+<ul>
+<li><strong><em>buffer:</em></strong> is a Uint8List containing the audio data that you want to play.</li>
+</ul>
 <h2 id="return">Return</h2>
 <p>Returns a Future that you MUST await if you really need a flow control.
 This future is declared <em>completed</em> when the data has been played,
@@ -96,6 +98,7 @@ await myPlayer.feedUint8FromStream(myData);
 <li><a href="../../player/FlutterSoundPlayer/float32Sink.html">float32Sink</a></li>
 <li><a href="../../player/FlutterSoundPlayer/int16Sink.html">int16Sink</a></li>
 <li><a href="../../player/FlutterSoundPlayer/uint8ListSink.html">uint8ListSink</a></li>
+<li>Please look to this <a href="/tau/guides/guides_live_streams.html">small guide</a> if you need help</li>
 </ul>
 <hr>
 </section>
