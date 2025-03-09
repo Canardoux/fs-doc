@@ -135,7 +135,6 @@ This verb will call <a href="../recorder/FlutterSoundRecorder/stopRecorder.html"
         </dt>
         <dd>
           Instanciate a new Flutter Sound Recorder.
-The optional paramater <code>Level logLevel</code> specify the Logger Level you are interested by.
         </dd>
     </dl>
   </section>
@@ -200,7 +199,7 @@ The optional paramater <code>Level logLevel</code> specify the Logger Level you 
 
 </dt>
 <dd>
-  The FlutterSoundRecorder Logger getter
+  The getter of the FlutterSoundRecorder Logger
   <div class="features"><span class="feature">no setter</span></div>
 
 </dd>
@@ -213,7 +212,6 @@ The optional paramater <code>Level logLevel</code> specify the Logger Level you 
 </dt>
 <dd>
   A stream on which FlutterSound will post the recorder progression.
-You may listen to this Stream to have feedback on the current recording.
   <div class="features"><span class="feature">no setter</span></div>
 
 </dd>
@@ -286,19 +284,6 @@ You may listen to this Stream to have feedback on the current recording.
 </dt>
 <dd>
   Get the URI of a recorded file.
-  
-
-</dd>
-
-        <dt id="getSampleRate" class="callable">
-  <span class="name"><a href="../recorder/FlutterSoundRecorder/getSampleRate.html">getSampleRate</a></span><span class="signature">(<wbr>)
-    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span>&gt;</span></span>
-  </span>
-  
-
-</dt>
-<dd>
-  Get the sampleRate used by startRecorder()
   
 
 </dd>
@@ -394,19 +379,6 @@ You may listen to this Stream to have feedback on the current recording.
 
 </dd>
 
-        <dt id="requestData" class="callable">
-  <span class="name"><a href="../recorder/FlutterSoundRecorder/requestData.html">requestData</a></span><span class="signature">(<wbr>)
-    <span class="returntype parameter">&#8594; void</span>
-  </span>
-  
-
-</dt>
-<dd>
-  
-  
-
-</dd>
-
         <dt id="resumeRecorder" class="callable">
   <span class="name"><a href="../recorder/FlutterSoundRecorder/resumeRecorder.html">resumeRecorder</a></span><span class="signature">(<wbr>)
     <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter">void</span>&gt;</span></span>
@@ -429,7 +401,6 @@ You may listen to this Stream to have feedback on the current recording.
 </dt>
 <dd>
   Used if the App wants to dynamically change the Log Level.
-Seldom used. Most of the time the Log Level is specified during the constructor.
   
 
 </dd>
@@ -456,7 +427,7 @@ duration listeners.
 
 </dt>
 <dd>
-  <code>startRecorder()</code> starts recording with an open session.
+  <code>startRecorder()</code> starts recording a recorder.
   
 
 </dd>
@@ -469,7 +440,7 @@ duration listeners.
 
 </dt>
 <dd>
-  Stop a record.
+  Stop a recorder.
   
 
 </dd>
