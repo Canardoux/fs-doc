@@ -4,10 +4,11 @@ summary: The Changelog of the Flutter Sound Project.
 nav_order: 8
 toc: false
 ---
-### 9.25.2
+### 9.25.3
 
 - Doc
 - Score on pub.dev
+- README on pub.dev
 
 #### TODO
 
@@ -582,7 +583,7 @@ Fix Bug `FlautoBackgroundAudioService requires explicit value for android:export
 
 ## 7.5.0
 
-- New procedure [FlutterSoundPlayer.startPlayerFromMic()](http://www.canardoux.xyz/tau_sound/doc/pages/flutter-sound/api/topics/tau_api_player_start_player_from_mic.html). [#580](https://github.com/dooboolab/flutter_sound/issues/580)
+- New procedure [FlutterSoundPlayer.startPlayerFromMic()](https://www.canardoux.xyz/tau_sound/doc/pages/flutter-sound/api/topics/tau_api_player_start_player_from_mic.html). [#580](https://github.com/dooboolab/flutter_sound/issues/580)
 
 ## 7.4.16
 
