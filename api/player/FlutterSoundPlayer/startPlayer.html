@@ -109,7 +109,10 @@ The <code>fromUri</code> parameter, if specified, can be one of three possibilit
 <p><a href="../../player/FlutterSoundPlayer/startPlayer.html">startPlayer()</a> returns a Duration Future, which is the record duration.</p>
 <h2 id="examples">Examples</h2>
 <p><em>Example:</em></p>
-<pre class="language-dart"><code class="language-dart">        Duration d = await myPlayer.startPlayer(codec: Codec.aacADTS, fromURI: 'foo'); // Play a temporary file
+<pre class="language-dart"><code class="language-dart">        Duration d = await myPlayer.startPlayer(
+            codec: Codec.aacADTS,
+            fromURI: 'foo'
+        ); // Play a temporary file
 
         _playerSubscription = myPlayer.onProgress.listen((e)
         {
@@ -128,6 +131,7 @@ The <code>fromUri</code> parameter, if specified, can be one of three possibilit
                 whenFinished: ()
                 {
                          logger.d( 'I hope you enjoyed listening to this song' );
+                         myPlayer.stopPlayer().then ( (_) { setState((){}); );
                 },
     );
 </code></pre>

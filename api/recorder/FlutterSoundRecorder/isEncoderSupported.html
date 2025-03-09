@@ -72,6 +72,14 @@
 <hr>
 <p>This verb is useful to know if a particular codec is supported on the current platform;.
 Note: <code>isEncoderSupported</code> is a method for internal reason, but should be a static function.</p>
+<h2 id="parameter">Parameter</h2>
+<ul>
+<li><strong><em>codec:</em></strong> the codec that you want to test.</li>
+</ul>
+<h2 id="return">Return</h2>
+<ul>
+<li>Returns true if the encoder is supported for this codec.</li>
+</ul>
 <h2 id="example">Example</h2>
 <pre class="language-dart"><code class="language-dart">        if ( await myRecorder.isEncoderSupported(Codec.opusOGG) ) doSomething;
 </code></pre>

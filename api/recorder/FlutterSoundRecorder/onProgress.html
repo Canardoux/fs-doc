@@ -74,7 +74,8 @@
 <section class="desc markdown">
   <p>A stream on which FlutterSound will post the recorder progression.</p>
 <hr>
-<p>You may listen to this Stream to have feedback on the current recording.</p>
+<p>You may listen to this Stream to have feedback on the current recording.
+Don't forget to call also <a href="../../recorder/FlutterSoundRecorder/setSubscriptionDuration.html">setSubscriptionDuration()</a>!</p>
 <h2 id="example">Example</h2>
 <pre class="language-dart"><code class="language-dart">        _recorderSubscription = myRecorder.onProgress.listen((e)
         {

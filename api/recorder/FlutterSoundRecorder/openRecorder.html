@@ -73,7 +73,7 @@
 <p>A recorder must be opened before used.
 Opening a recorder takes resources inside the system. Those resources are freed with the verb <code>closeRecorder()</code>.</p>
 <p>Overload your widget's <code>dispose()</code> method to close the recorder when your widget is disposed.
-In this way you will reset the Recorder and clean up the device resources, but the recorder will be no longer usable.</p>
+In this way you will reset the Recorder and clean up the device resources, and the recorder will be no longer usable.</p>
 <pre class="language-dart"><code class="language-dart">@override
 void dispose()
 {
@@ -92,7 +92,7 @@ void dispose()
 <h2 id="return">Return</h2>
 <p><a href="../../recorder/FlutterSoundRecorder/openRecorder.html">openRecorder()</a> returns Futures.
 You do not need to wait the end of the initialization before <a href="../../recorder/FlutterSoundRecorder/startRecorder.html">startRecorder()</a>.
-<a href="../../recorder/FlutterSoundRecorder/startRecorder.html">startRecorder</a> will automaticaly wait the end of <code>openRecorder()</code> before starting the recorder.</p>
+It will automatically wait the end of <code>openRecorder()</code> before starting the recorder.</p>
 <h2 id="example">Example:</h2>
 <pre class="language-dart"><code class="language-dart">    myRecorder = await FlutterSoundRecorder().openRecorder();
 
