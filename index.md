@@ -1,5 +1,5 @@
 ---
-title: Flutter Sound - 9.25.1
+title: Flutter Sound - 9.25.2
 summary: The Flutter Sound Project README.
 layout: home
 nav_order: 1

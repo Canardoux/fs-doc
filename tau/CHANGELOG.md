@@ -4,34 +4,10 @@ summary: The Changelog of the Flutter Sound Project.
 nav_order: 8
 toc: false
 ---
-### 9.25.1
+### 9.25.2
 
-Implementation of setVolume() during play to Stream on iOS. ([#1164](https://github.com/Canardoux/flutter_sound/issues/1164))
-
-### 9.24.5
-
-- On Android : Record to Stream Float32 was incorrect
-- On Android : Record to Stream Not Interleaved mode was incorrect
-- On Android : Play from Stream Float32 was incorrect
-- On Android : Play from Stream Not interleaved mode was incorrect
-
-### 9.24.4
-
-- Flutter Sound does not depend any more on etau/tau_web.
-- Modify the hack on iOS when recording to stream because it din't work well with the new Streams! (no idea of the reason)!
-- The live examples works again.
-- The new doc uses Jekyll with `Just the Docs` theme (`dart doc` is now integrated inside our documentation).
-- Doc : no more 404 errors. (I hope!).
-- Rewrite the `PCM Dart Streams` guide.
-- Improve the examples for Stream support by Flutter Sound
-- Record to Stream (see [the Stream support guide](https://fs-doc.vercel.app/tau/guides/guides_live_streams.html))
-    - OK on iOS
-    - OK on Android
-    - Not finished on web
-- Play from Stream (again, see [the Stream support guide](https://fs-doc.vercel.app/tau/guides/guides_live_streams.html))
-    - OK on iOS
-    - OK on Android
-    - Not finished on web
+- Doc
+- Score on pub.dev
 
 #### TODO
 
@@ -60,6 +36,35 @@ Implementation of setVolume() during play to Stream on iOS. ([#1164](https://git
 - On Web : startPlayer FromURI : _flutter_sound.wav : No file extension was found. Consider using the "format" property or specify an extension.
 - On iOS : codec==Codec.pcm16WAV  --  startRecorder()  --  The frames are not correctely coded with int16 but float32. This must be fixed.
 - MacOS support
+
+### 9.25.1
+
+Implementation of setVolume() during play to Stream on iOS. ([#1164](https://github.com/Canardoux/flutter_sound/issues/1164))
+
+### 9.24.5
+
+- On Android : Record to Stream Float32 was incorrect
+- On Android : Record to Stream Not Interleaved mode was incorrect
+- On Android : Play from Stream Float32 was incorrect
+- On Android : Play from Stream Not interleaved mode was incorrect
+
+### 9.24.4
+
+- Flutter Sound does not depend any more on etau/tau_web.
+- Modify the hack on iOS when recording to stream because it din't work well with the new Streams! (no idea of the reason)!
+- The live examples works again.
+- The new doc uses Jekyll with `Just the Docs` theme (`dart doc` is now integrated inside our documentation).
+- Doc : no more 404 errors. (I hope!).
+- Rewrite the `PCM Dart Streams` guide.
+- Improve the examples for Stream support by Flutter Sound
+- Record to Stream (see [the Stream support guide](https://fs-doc.vercel.app/tau/guides/guides_live_streams.html))
+    - OK on iOS
+    - OK on Android
+    - Not finished on web
+- Play from Stream (again, see [the Stream support guide](https://fs-doc.vercel.app/tau/guides/guides_live_streams.html))
+    - OK on iOS
+    - OK on Android
+    - Not finished on web
 
 ### 9.23.0
 
