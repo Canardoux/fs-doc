@@ -4,9 +4,13 @@ summary: The Changelog of the Flutter Sound Project.
 nav_order: 8
 toc: false
 ---
+### 9.25.9
+
+-  Flutter Sound Web : change the dependency on web: ^1.0.0 to '>=0.5.0 <2.0.0'. [(#1168)](https://github.com/Canardoux/flutter_sound/issues/1168).
+
 ### 9.25.7
 
-- Downgrade the Dart SDK dependency from 3.6.0 to 3.3.0 on Flutter_Sound_Web [(#1168)](https://github.com/Canardoux/flutter_sound/issues/1168).
+-  Flutter_Sound_Web : Downgrade the Dart SDK dependency from 3.6.0 to 3.3.0 [(#1168)](https://github.com/Canardoux/flutter_sound/issues/1168).
 
 ### 9.25.6
 
