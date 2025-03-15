@@ -57,7 +57,7 @@ echo "Put the API pages in the left menu"
 #END
 
 
-ed api/player/FlutterSoundPlayer-class.html  >/dev/null << END
+ed api/public_flutter_sound_player/FlutterSoundPlayer-class.html  >/dev/null << END
 2i
 title: "Player class"
 parent: "API ref."
@@ -79,7 +79,7 @@ END
 #END
 
 
-ed api/recorder/FlutterSoundRecorder-class.html  >/dev/null << END
+ed api/public_flutter_sound_recorder/FlutterSoundRecorder-class.html  >/dev/null << END
 2i
 title: "Recorder class"
 parent: "API ref."
@@ -102,7 +102,7 @@ END
 #END
 
 
-ed api/helper/FlutterSoundHelper-class.html  >/dev/null << END
+ed api/public_flutter_sound_helper/FlutterSoundHelper-class.html  >/dev/null << END
 2i
 title: "Helper class"
 parent: "API ref."
