@@ -17,8 +17,8 @@ or things that come from a remote server,
 > Dart Streams support is actually being developped. Some Features are not completely supported:
 >
 > - On iOS things are completely finished. Everything is supposed to work
-> - On Android things are completely finished. Everything is supposed to work
-> - On Web, most everything is to be done. I am going to do that now.
+> - On Android non interleaved mode and Float32 are not fully implemented
+> - On Web, things are completely finished. Everything is supposed to work
 
 
 ### Interleaving
@@ -87,9 +87,9 @@ The parameters used for the verb [startRecorder()](/api/recorder/FlutterSoundRec
 
 - **enableVoiceProcessing:** I cannot say anything about this parameter because I don't know what it is for.
 
-{: .warning}
-It is really important that you specify the Codec parameter, the sampleRate, the numChannels parameter and your stream. Do not relay on the default values.
-If you don't, you will get bad values. You could even get Exceptions or crash.
+{: .important}
+It is really important that you specify correctly the Codec parameter, the sampleRate, the numChannels parameter and your stream.
+If you don't, you will get bad results.
 
 ### Listen to your Stream
 
@@ -206,9 +206,9 @@ await myPlayer.feedF32FromStream(aBuffer);
 
 - **_onBufferUnderlow:_** is a callback to be fired when the internal buffers become low. This parameter is optional.
 
-{: .warning}
-It is really important that you specify the Codec parameter, the sampleRate, the numChannels parameter and the `interleaved` boolean. Do not relay on the default values.
-If you don't, you will get bad values. You could even get Exceptions or crash.
+{: .important}
+It is really important that you specify correctly the Codec parameter, the sampleRate, the numChannels parameter and the interleaved boolean.
+If you don't, you will get bad results.
 
 ### whenFinished:
 

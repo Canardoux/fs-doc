@@ -12,7 +12,7 @@ toc: false
 - On web : Play from Stream Float32 OK
 - On web : Play from Stream Int16 OK
 - On web : Play from Stream channels interleaved/not-interleaved OK
-- New parameter for the `playFromStrea,()` : **_onBufferUndrflow_**
+- New parameter for the `playFromStream()` : **_onBufferUndrflow_**
 
 ### 9.25.9
 
