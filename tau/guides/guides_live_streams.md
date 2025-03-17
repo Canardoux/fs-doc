@@ -189,20 +189,22 @@ await myPlayer.feedF32FromStream(aBuffer);
 
 ### Parameters for `startPlayerFromStream()`:
 
-- **codec:** is mandatory. It can be either :
+- **_codec:_** is mandatory. It can be either :
     - `Codec.pcm16` if you want to get your PCM samples with an Int16 coding
     - `Codec.pcmFloat32` if you want to get your PCM samples with a Float32 coding.
 
-- **sampleRate:** specifies your Sample Rate. It can be anything.  The default value is 16000. For example :
+- **_sampleRate:_** specifies your Sample Rate. It can be anything. For example :
     - 8000 is a very low Sample rate
     - 44100 is the Sample Rate used by CD Audio
     - 48000 is a very high quality sample rate
 
-- **numChannels:** specifies the number of channels you want. 1 for monophony, 2 for stereophony, ... The default value is 1.
+- **_numChannels:_** specifies the number of channels you want. 1 for monophony, 2 for stereophony, ... 
 
-- **interleaved:** is a boolean which specifies if you will provide the data to be played as an interleaved stream of Int16, or if you will provide these data as Lists of Float32List (or Lists of Int16List).
+- **_interleaved:_** is a boolean which specifies if you will provide the data to be played as an interleaved stream of Int16, or if you will provide these data as Lists of Float32List (or Lists of Int16List).
 
-- **bufferSize:** is a not very interesting parameter and is for expert only. With this parameter you can specify the size of the internal buffers used by flutter Sound. I sugggest that you do not play with this parameter and keep its default value which is actually 8192. This default value is probably too high, and I will try to downgrade it in the future,
+- **_bufferSize:_** is the size of the internal and external buffers. It can be anything, but results are better with a power of two (or at least a multiple of 128) and greater than 512. 1024 is a good number.
+
+- **_onBufferUnderlow:_** is a callback to be fired when the internal buffers become low. This parameter is optional.
 
 {: .warning}
 It is really important that you specify the Codec parameter, the sampleRate, the numChannels parameter and the `interleaved` boolean. Do not relay on the default values.
@@ -212,6 +214,11 @@ If you don't, you will get bad values. You could even get Exceptions or crash.
 
 This parameter cannot be used. After [startPlayerFromStream()](/api/player/FlutterSoundPlayer/startPlayerFromStream.html) the player is always available until [stopPlayer()](/api/player/FlutterSoundPlayer/stopPlayer.html). The app can provide audio data when it wants. Even after an elapsed time without any audio data.
 
+### onBufferUnderlow:
+
+The app can specify a callback function to be called when the internal buffers are becoming low.
+This can happen at the beginning of the playback, when the internal buffers are not fully loaded, or when the app stop feeding the stream.
+
 ### Play your live data
 
 After having starting your player, you can begin to play your live data to the output device.
@@ -220,6 +227,9 @@ You have two possibilities:
 
 - Play them without any flow control
 - Play them with flow control
+
+{: .note}
+Actually, tests have been extensively done with a **constant** buffer size mutiple of 1024. It is possible that bugs are encounter with non constant buffers or not a power of two. But hopefully, everything wil be OK without this constrain.
 
 #### Play data without flow control
 
@@ -239,7 +249,7 @@ _Example:_
 ```dart
 UInt8List myBuffer;
 
-await myPlayer.startPlayerFromStream(codec: Codec.pcm16, numChannels: 1, sampleRate: 48000, interleaved: true);
+await myPlayer.startPlayerFromStream(codec: Codec.pcm16, numChannels: 1, sampleRate: 48000, interleaved: true, bufferSize = 1024);
 ...
 await myPlayer.uint8ListSink.add(myBuffer);
 ...
