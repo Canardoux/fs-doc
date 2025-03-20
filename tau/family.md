@@ -11,3 +11,5 @@ The `Tau` family begins to be rich :). It is composed by those following Flutter
 - [Tauweb](/tau/family/tauweb.html) (which is the `Etau` implementation for Flutter Web)
 - [Tauwar](/tau/family/tauwar.html) (which is the `Etau` implementation for Flutter on mobiles)
 - [Taudio](/tau/family/taudio.html) (which is (will be) something like Flutter Sound 10.0)
+
+![Architecture](/images/architecture.png)

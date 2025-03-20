@@ -4,6 +4,10 @@ summary: The Changelog of the Flutter Sound Project.
 nav_order: 8
 toc: false
 ---
+### 10.0.0
+
+- fix 404 errors int the doc, because the API ref. was moved [#1173](https://github.com/Canardoux/flutter_sound/issues/1173)
+
 ### 9.26.0
 
 - On web : Record to Stream Float32 OK
