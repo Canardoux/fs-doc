@@ -13,7 +13,7 @@ The real interest of recording to a Stream is for example to feed a Speech-to-Te
 This example can record something to a Stream. It handle the stream to stored the data in memory.
 Then, the user can play a Stream that read the data store in memory.
 
-The example create a [Player object](/api/public_flutter_sound_player/FlutterSoundPlayer-class.html) and a [Recorder object](/api/recorder/FlutterSoundRecorder-class.html).
+The example create a [Player object](/api/public_flutter_sound_player/FlutterSoundPlayer-class.html) and a [Recorder object](/api/public_flutter_sound_recorder/FlutterSoundRecorder-class.html).
 It calls [startRecorder(toStream:)](/api/public_flutter_sound_player/FlutterSoundRecorder/startRecorder.html) to fill a buffer from a stream
 and then it calls [startPlayerFromStream()](/api/public_flutter_sound_player/FlutterSoundPlayer/startPlayerFromStream.html) to play the buffer from another stream.
 The example is just a little bit complicated because there are inside both a player stream and a recorder stream,
