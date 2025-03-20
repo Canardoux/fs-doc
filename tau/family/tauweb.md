@@ -18,6 +18,11 @@ title: Tauweb
 parent: "The τ family"
 nav_order: 2
 ---
+---
+title: Tauweb
+parent: "The τ family"
+nav_order: 2
+---
 - ## The CHANGELOG [is here](https://etau.canardoux.xyz/tau/CHANGELOG.html)
 
 ## Tauweb stands for Ukraine!

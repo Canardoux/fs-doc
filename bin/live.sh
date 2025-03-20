@@ -2,6 +2,9 @@
 
 
 
+cd ../flutter_sound/example
+flutter build web --release
+cd ../../fs-doc
 
 rm -rf live
 cp -r ../flutter_sound/example/build/web live
