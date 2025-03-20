@@ -10,8 +10,8 @@ The example source [is there](https://github.com/canardoux/flutter_sound/blob/ma
 
 An example showing how to play Live Data with back pressure. It feeds a live stream, waiting that the futures are completed for each block.
 
-This example get the data from an asset file, which is completely stupid : if an App wants to play an asset file he must use [startPlayer(fromDataBuffer:)](/api/player/FlutterSoundPlayer/startPlayer.html).
-Then it calls [startPlayerFromStream()](/api/player/FlutterSoundPlayer/startPlayerFromStream.html) to play the buffer
+This example get the data from an asset file, which is completely stupid : if an App wants to play an asset file he must use [startPlayer(fromDataBuffer:)](/api/public_flutter_sound_player/FlutterSoundPlayer/startPlayer.html).
+Then it calls [startPlayerFromStream()](/api/public_flutter_sound_player/FlutterSoundPlayer/startPlayerFromStream.html) to play the buffer
 
 If you do not need any back pressure, you can see another simple example : [LivePlaybackWithoutBackPressure.dart](fs-ex_playback_from_stream_1.html).
 This other example is a little bit simpler because the App does not need to await the playback for each block before playing another one.
