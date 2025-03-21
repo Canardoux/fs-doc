@@ -1,7 +1,7 @@
 ---
 title:  "Examples"
 summary: "Flutter Sound comes with a list of very simple examples."
-nav_order: 3
+nav_order: 4
 ---
 # Examples
 

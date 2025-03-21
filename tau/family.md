@@ -1,6 +1,6 @@
 ---
 title: "The τ family"
-nav_order: 5
+nav_order: 6
 ---
 # The τ family
 
@@ -12,4 +12,4 @@ The `Tau` family begins to be rich :). It is composed by those following Flutter
 - [Tauwar](/tau/family/tauwar.html) (which is the `Etau` implementation for Flutter on mobiles)
 - [Taudio](/tau/family/taudio.html) (which is (will be) something like Flutter Sound 10.0)
 
-![Architecture](/images/architecture.png)
+![Architecture](/images/tau_architecture.png)
