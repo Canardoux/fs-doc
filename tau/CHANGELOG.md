@@ -4,6 +4,12 @@ summary: The Changelog of the Flutter Sound Project.
 nav_order: 8
 toc: false
 ---
+### 10.1.0
+
+- Web : the scripts are now loaded during `open()`. We will not anymore have problems with scripts not loaded in time.
+- Web : The plugin does not anymore depend on `dart:html`.
+- Web : The plugin does not anymore depend on `dart:js_util`.
+- Web : WASM support. Everything are OK except `RecordToStream` which does not work for an unknown reason.
 
 ### 10.0.0
 
