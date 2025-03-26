@@ -3,13 +3,13 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"flutter_bootstrap.js": "355b32826736658758909403e0c59ef1",
+const RESOURCES = {"flutter_bootstrap.js": "cc202e2976a3d2068a073f416717f4be",
 "version.json": "2382c7ea16fc0d0cf416c365e3837d86",
 "index.html": "75fad508277b0ad0be20d6c0fe376d8d",
 "/": "75fad508277b0ad0be20d6c0fe376d8d",
-"js.sav/flutter_sound/flutter_sound_recorder.js": "0ec45f8c46d7ddb18691714c0c7348c8",
-"js.sav/flutter_sound/flutter_sound_player.js": "b14f8d190230d77c02ffc51ce962ce80",
-"js.sav/flutter_sound/flutter_sound.js": "3c26fcc60917c4cbaa6a30a231f7d4d8",
+"js.sav/flutter_sound/flutter_sound_recorder.js": "b37654208f2ab2461a0f66424a20335a",
+"js.sav/flutter_sound/flutter_sound_player.js": "3d81d1ba598ac80d4536b7391600ef00",
+"js.sav/flutter_sound/flutter_sound.js": "7e17a336e64c7aaf2ab0fd4fe1e6cf0f",
 "js.sav/howler/howler.js": "3030c6101d2f8078546711db0d1a24e9",
 "js.sav/howler/howler.spatial.min.js": "28305f7b4898c9b49d523b2e80293ec8",
 "js.sav/howler/howler.min.js": "0245b64fba989b9e3fd5b253f683d0e4",
