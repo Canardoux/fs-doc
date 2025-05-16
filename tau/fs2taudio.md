@@ -20,7 +20,7 @@ This is the first step. Your software must be GPL compliant. You must approve it
 
 ### But what is this famous GPL License ?
 
-You can read all the legally lines if you want. But there are two main things that is important to understand :
+You can read all the [legally lines](/tau/LICENSE.html) if you want. But there are two main things that is important to understand :
 
 - If your App is dependant of `Taudio`, you must publish the sources of your software somewhere. Probably on internet.
 
@@ -36,6 +36,8 @@ Because you are perhaps a professional developer. I am a professional developer.
 dependencies:
   taudio: ^10.0.0
   ```
+
+Don't forget to remove andy dependency to flutter_sound 9.x!
 
 ## 3. Modify your Dart import statement
 

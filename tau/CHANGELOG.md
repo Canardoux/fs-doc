@@ -4,11 +4,38 @@ summary: The Changelog of the Flutter Sound Project.
 nav_order: 8
 toc: false
 ---
+### 10.3.2
+
+- Android recorder: fixes a stupid regression when writing PCM16WAV data to the file ( [fs #1187](https://github.com/Canardoux/flutter_sound/issues/1187) )
+
+### 10.3.1
+
+- Android : Remove dummy code when recording PCM16WAV ( [fs #1187](https://github.com/Canardoux/flutter_sound/issues/1187) )
+
+### 10.3.0
+
+- Android : Play from Stream - feedxxx() uses an auxiliary thread so not to block the main thread. ([fs #1184](https://github.com/Canardoux/flutter_sound/issues/1184))
+
+### 10.2.5
+
+- The FlutterSoundWeb was sending a 'stopCompleted' but the internal status was 'notStopped'. [fs #1179](https://github.com/Canardoux/flutter_sound/issues/1179)
+
+### 10.2.4
+
+- The flag 'scriptLoaded' was set too early in FlutterSoundWeb. [(fs #1175)](https://github.com/Canardoux/flutter_sound/issues/1175)
+
+### 10.2.2
+
+- Add two new parameters in startRecorder() on Android : `enableNoiseSuppression` and `enableEchoCancellation`. [(fs 956)](https://github.com/Canardoux/flutter_sound/issues/956)
+
+### 10.2.1
+
+- Add a trace in the logs to be more verbose on Android when startPlayer() has an exception. [(fs #1178)](https://github.com/Canardoux/flutter_sound/issues/1178)
 
 ### 10.2.0
 
 - [startPlayerFromMic()](https://taudio.canardoux.xyz/api/public_fs_flutter_sound_player/FlutterSoundPlayer/startPlayerFromMic.html) is not flagged anymore as deprecated because it was used by some users.
-- Add a new example : [Play from Mic](https://taudio.canardoux.xyz/tau/examples/ex_play_from_mic.html)
+- Add a new example : [Play from Mic](https://taudio.canardoux.xyz/tau/examples/ex_play_from_mic.html) [(fs 1175)](https://github.com/Canardoux/flutter_sound/issues/1175)
 
 ### 10.1.1
 
@@ -24,9 +51,9 @@ toc: false
 ### 10.0.0
 
 - Flutter Sound v10.0 ([Taudio](https://pub.dev/packages/taudio)). Actually just a port of Flutter Sound v9.x (Please pay attention to the GPL License).
-- Fix 404 errors int the doc, because the API ref. was moved ([#1173](https://github.com/Canardoux/flutter_sound/issues/1173))
+- Fix 404 errors int the doc, because the API ref. was moved ([fs #1173](https://github.com/Canardoux/flutter_sound/issues/1173))
 - Android : Use  MediaPlayer's asynchronous prepareAsync() instead of synchronous prepare(), to avoid ANRs when there is no network connection when trying to play from a remote URL. Many thanks to [Eric](https://github.com/ericbomgardner) for his [PR](https://github.com/Canardoux/flutter_sound_core/pull/13).
-- Android : Fix a bug when startPlayer() fires an Exception [(#1174)](https://github.com/Canardoux/flutter_sound/issues/1174)
+- Android : Fix a bug when startPlayer() fires an Exception [(fs #1174)](https://github.com/Canardoux/flutter_sound/issues/1174)
 - Add a very [simple guide](https://taudio.canardoux.xyz/tau/fs2taudio.html) on how to upgrade 9.x to 10.0
 
 ### 9.28.0
