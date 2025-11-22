@@ -16,7 +16,7 @@ w
 q
 END
 
-cp ../taudio/CHANGELOG.md tau/CHANGELOG.md
+cp ../flutter_sound/CHANGELOG.md tau/CHANGELOG.md
 ed tau/CHANGELOG.md  >/dev/null << END
 1i
 ---
