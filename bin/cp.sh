@@ -6,7 +6,7 @@ cp -v ../flutter_sound/README.md README.md
 ed index.md  >/dev/null << END
 1i
 ---
-title: Flutter Sound - 9.29.2
+title: Flutter Sound - 9.29.3
 summary: The Flutter Sound Project README.
 layout: home
 nav_order: 1

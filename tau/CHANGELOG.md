@@ -10,6 +10,12 @@ summary: The Changelog of the Flutter Sound Project.
 nav_order: 8
 toc: false
 ---
+---
+title: "CHANGELOG"
+summary: The Changelog of the Flutter Sound Project.
+nav_order: 8
+toc: false
+---
 ### 9.28.0
 
 - Android : Use  MediaPlayer's asynchronous prepareAsync() instead of synchronous prepare(), to avoid ANRs when there is no network connection when trying to play from a remote URL. Many thanks to [Eric](https://github.com/ericbomgardner) for his [PR](https://github.com/Canardoux/flutter_sound_core/pull/13).
