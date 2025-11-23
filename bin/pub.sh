@@ -18,9 +18,7 @@ bin/cp.sh
 #    exit -1
 #fi
 
-cd ../flutter_sound
-dart doc .
-cd ../fs-doc
+#cd ../fs-doc
 
 echo "Running api.sh"
 bin/api.sh
@@ -56,12 +54,12 @@ fi
 
 echo 'git push'
 git add .
-git commit -m 'doc'
+git commit -m 'fs-ddc pub.sh'
 git pull
 git push
 
-echo -n 'Upload to canardoux.xyz ...'
-scp -r _site/* canardoux@danku:/var/www/canardoux.xyz/tau/fs-doc > /dev/null
+#echo -n 'Upload to canardoux.xyz ...'
+#scp -r _site/* canardoux@danku:/var/www/canardoux.xyz/tau/fs-doc > /dev/null
 echo ''
 echo 'OK man'
 

@@ -4,6 +4,10 @@
 #cp -a ../flutter_sound/doc/api tau/fs
 #cp -a ../taudio/doc/api tau/taudio
 #cp -a ../etau/doc/api tau/etau
+cd ../flutter_sound
+rm -rf doc/api
+dart doc .
+cd ../fs-doc
 
 rm -rf api
 cp -a ../flutter_sound/doc/api .
