@@ -49,7 +49,7 @@ The Flutter Sound package supports recording to:
 
 Flutter Sound comes with several [Demo/Examples](https://flutter-sound.canardoux.xyz/tau/examples.html).
 
-You can run a live view of these examples [here](https://fhttps://flutter-sound.canardoux.xyz/live/).
+You can run a live view of these examples [here](https://https://flutter-sound.canardoux.xyz/live/).
 
 ## Features
 
@@ -136,7 +136,7 @@ The current Flutter Sound version is 9.x. [Taudio](https://pub.dev/packages/taud
 ![PeaceForUkraine](https://flutter-sound.canardoux.xyz/images/2-year-old-irish-girl-ukrainian.jpg)
 Peace for Ukraine
 
-![PrayForUkraine](https://flutter-sound.canardoux.xyz/images/banner.png
+![PrayForUkraine](https://flutter-sound.canardoux.xyz/images/banner.png)
 
 ## We need help
 
