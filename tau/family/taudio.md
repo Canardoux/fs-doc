@@ -38,6 +38,11 @@ title: Taudio
 parent: "The τ family"
 nav_order: 4
 ---
+---
+title: Taudio
+parent: "The τ family"
+nav_order: 4
+---
 ![pub version](https://img.shields.io/pub/v/taudio.svg?style=flat-square)
 ![Taudio](https://taudio.canardoux.xyz/images/Logotype-primary.png)
 
