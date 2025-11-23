@@ -1,5 +1,5 @@
 ---
-title: Flutter Sound - 9.29.4
+title: Flutter Sound - 9.29.5
 summary: The Flutter Sound Project README.
 layout: home
 nav_order: 1
@@ -8,7 +8,7 @@ nav_order: 1
 ![Flutter Sound](https://tau-ver.canardoux.xyz/images/fs/Logotype-primary.png)
 
 - ## Flutter Sound user : your doc [is here](https://flutter-sound.canardoux.xyz/)
-- ## The CHANGELOG [is here](https://fs-doc.vercel.app/tau/CHANGELOG.html)
+- ## The CHANGELOG [is here](https://flutter-sound.canardoux.xyz/tau/CHANGELOG.html)
 
 ## Flutter Sound stands with Ukraine
 
