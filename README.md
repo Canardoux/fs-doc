@@ -49,7 +49,7 @@ The Flutter Sound package supports recording to:
 
 Flutter Sound comes with several [Demo/Examples](https://flutter-sound.canardoux.xyz/tau/examples.html).
 
-You can run a live view of these examples [here](https://https://flutter-sound.canardoux.xyz/live/).
+You can run a live view of these examples [here](https://flutter-sound.canardoux.xyz/live/).
 
 ## Features
 
@@ -89,7 +89,7 @@ The `Tau` family begins to be rich :). It is composed by those following Flutter
 - [Tauwar](https://pub.dev/packages/tau_war) (which is the `Etau` implementation for Flutter on mobiles)
 - [Taudio](https://pub.dev/packages/taudio) (which is (will be) something like Flutter Sound 10.0)
 
-![Architecture](/images/tau_architecture.png)
+![Architecture](https://flutter-sound.canardoux.xyz/images/tau_architecture.png)
 
 ### [Etau](https://pub.dev/packages/etau)
 
