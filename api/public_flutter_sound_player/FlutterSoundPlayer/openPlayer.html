@@ -57,7 +57,7 @@
     <section class="multi-line-signature">
       
 <span class="returntype"><a href="https://api.flutter.dev/flutter/dart-core/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../../public_flutter_sound_player/FlutterSoundPlayer-class.html">FlutterSoundPlayer</a>?</span>&gt;</span></span>
-<span class="name ">openPlayer</span>(<wbr>{<ol class="parameter-list"> <li><span class="parameter" id="openPlayer-param-isBGService"><span class="type-annotation">dynamic</span> <span class="parameter-name">isBGService</span> = <span class="default-value">false</span>, </span></li>
+<span class="name ">openPlayer</span>(<wbr>{<ol class="parameter-list"> <li><span class="parameter" id="openPlayer-param-isBGService"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span> <span class="parameter-name">isBGService</span> = <span class="default-value">false</span>, </span></li>
 </ol>})
 
       
@@ -93,7 +93,7 @@ The Future will be automaticaly waited by <a href="../../public_flutter_sound_pl
     
 <section class="summary source-code" id="source">
   <h2><span>Implementation</span></h2>
-  <pre class="language-dart"><code class="language-dart">Future&lt;FlutterSoundPlayer?&gt; openPlayer({isBGService = false}) async {
+  <pre class="language-dart"><code class="language-dart">Future&lt;FlutterSoundPlayer?&gt; openPlayer({bool isBGService = false}) async {
   &#47;&#47;if (!Platform.isIOS &amp;&amp; enableVoiceProcessing) {
   &#47;&#47;throw (&#39;VoiceProcessing is only available on iOS&#39;);
   &#47;&#47;}
@@ -141,7 +141,7 @@ The Future will be automaticaly waited by <a href="../../public_flutter_sound_pl
 <footer>
   <span class="no-break">
     flutter_sound
-      9.29.8
+      9.29.13
   </span>
   
 </footer>
