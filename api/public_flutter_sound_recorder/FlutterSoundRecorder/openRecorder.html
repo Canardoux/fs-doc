@@ -57,7 +57,7 @@
     <section class="multi-line-signature">
       
 <span class="returntype"><a href="https://api.flutter.dev/flutter/dart-core/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../../public_flutter_sound_recorder/FlutterSoundRecorder-class.html">FlutterSoundRecorder</a>?</span>&gt;</span></span>
-<span class="name ">openRecorder</span>(<wbr>{<ol class="parameter-list"> <li><span class="parameter" id="openRecorder-param-isBGService"><span class="type-annotation">dynamic</span> <span class="parameter-name">isBGService</span> = <span class="default-value">false</span>, </span></li>
+<span class="name ">openRecorder</span>(<wbr>{<ol class="parameter-list"> <li><span class="parameter" id="openRecorder-param-isBGService"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span> <span class="parameter-name">isBGService</span> = <span class="default-value">false</span>, </span></li>
 </ol>})
 
       
@@ -111,7 +111,7 @@ It will automatically wait the end of <code>openRecorder()</code> before startin
     
 <section class="summary source-code" id="source">
   <h2><span>Implementation</span></h2>
-  <pre class="language-dart"><code class="language-dart">Future&lt;FlutterSoundRecorder?&gt; openRecorder({isBGService = false}) async {
+  <pre class="language-dart"><code class="language-dart">Future&lt;FlutterSoundRecorder?&gt; openRecorder({bool isBGService = false}) async {
   if (_isInited != Initialized.notInitialized) {
     return this;
   }
@@ -157,7 +157,7 @@ It will automatically wait the end of <code>openRecorder()</code> before startin
 <footer>
   <span class="no-break">
     flutter_sound
-      9.29.13
+      9.29.14
   </span>
   
 </footer>
